@@ -1,0 +1,32 @@
+<!-- Scripts -->
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/countrycode.js"></script>
+
+<script type="text/javascript">
+	$('.admin-form-cont').find('.form-control').focus(function() {
+  		$(this).parent('.label-grp').addClass('focus');
+	});
+	$('.admin-form-cont').find('.form-control').blur(function() {
+  		if ($(this).val().length == 0) {
+    	$(this).parent('.label-grp').removeClass('focus');
+  		}
+	});
+</script>
+
+<script type="text/javascript">
+	$('.admin-form-cont').find('.form-control').focus(function() {
+  		$('.country-code').addClass('focus');
+	});
+	$('.admin-form-cont').find('.form-control').blur(function() {
+  		if ($(this).val().length == 0) {
+    	$('.country-code').removeClass('focus');
+  		}
+	});
+</script>
+<script>
+    $("#adminuser-countrycode").intlTelInput({
+    });
+  </script>
+</body>
+</html>
