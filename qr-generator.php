@@ -4,8 +4,11 @@
     </div> -->
     <div class="admin-qrgenerator-container">
         <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 pad-right-0">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
                 <div class="admin-qrgenerator-aside">
+                    <div class="gr-header-tilte">
+                        <h2>Add Group</h2>
+                    </div>
                     <!-- <div class="product-category-header">
                         <h5>Categories</h5>
                         <a data-toggle="collapse" href="#categoryAdd" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -101,7 +104,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-9 col-lg-9 col-md-9 col-9 pad-left-0">
+            <div class="col-xl-9 col-lg-9 col-md-9 col-9">
                  <div class="admin-qrgenerator-right-side">
                     <!-- <div class="rightheader-relative">
                         <div class="product-rightcat-header">
@@ -153,8 +156,337 @@
                     <!-- Tabs content -->
                     <div class="tab-content" id="product-category-tabContent">
                         <div class="tab-pane fade show active" id="breakfast-content" role="tabpanel" aria-labelledby="breakfast-tab">
+                            <div class="qr-scan-box-container">
+                                <a class="qr-scan-box" href="#">
+                                    <div class="qr-image-box">
+                                        <h6>View Code</h6>
+                                        <img src="assets/images/qr-code.png" alt="QR Image">
+                                        <div class="view-scanner-icon">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="qr-info-box">
+                                    <div class="qr-title-name">
+                                        <h3>Table 1</h3>
+                                    </div>
+                                    <div class="infor-icon-text">
+                                        <div class="icon-info">
+                                            <span class="icon-bg-info">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </div>
+                                        <p class="info-text">25/09/2020</p>
+                                    </div>
+                                    <div class="infor-icon-text">
+                                        <div class="icon-info">
+                                            <span class="icon-bg-info">
+                                                <i class="fa fa-globe"></i>
+                                            </span>
+                                        </div>
+                                        <p class="info-text"><a href="#">https://qrapp-twin/url/b09cfb6bd2ce48e2b71a7ba0</a></p>
+                                    </div>
+                                    <!-- <div class="scanned-items">
+                                        <span class="scanned-text">Scanned</span>
+                                            <span class="scanned-number">2</span>
+                                        </span>
+                                    </div> -->
+                                    <div class="qr-scan-icon-side">
+                                        <div class="icons-qr-scan">
+                                            <a href="#" class="action-icons-scan">
+                                                <div class="common-tooltipbox"><i class="fa fa-edit"></i>
+                                                    <div class="admin-common-tooltip">
+                                                        <span class="tool-text">Edit</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="action-icons-scan">
+                                                <div class="common-tooltipbox"><i class="fa fa-trash"></i>
+                                                    <div class="admin-common-tooltip">
+                                                        <span class="tool-text">Delete</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="qr-scan-box-container">
+                                <a class="qr-scan-box" href="#">
+                                    <div class="qr-image-box">
+                                        <h6>View Code</h6>
+                                        <img src="assets/images/qr-code.png" alt="QR Image">
+                                        <div class="view-scanner-icon">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="qr-info-box">
+                                    <div class="qr-title-name">
+                                        <h3>Table 1</h3>
+                                    </div>
+                                    <div class="infor-icon-text">
+                                        <div class="icon-info">
+                                            <span class="icon-bg-info">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </div>
+                                        <p class="info-text">25/09/2020</p>
+                                    </div>
+                                    <div class="infor-icon-text">
+                                        <div class="icon-info">
+                                            <span class="icon-bg-info">
+                                                <i class="fa fa-globe"></i>
+                                            </span>
+                                        </div>
+                                        <p class="info-text"><a href="#">https://qrapp-twin/url/b09cfb6bd2ce48e2b71a7ba0</a></p>
+                                    </div>
+                                    <!-- <div class="scanned-items">
+                                        <span class="scanned-text">Scanned</span>
+                                            <span class="scanned-number">2</span>
+                                        </span>
+                                    </div> -->
+                                    <div class="qr-scan-icon-side">
+                                        <div class="icons-qr-scan">
+                                            <a href="#" class="action-icons-scan">
+                                                <div class="common-tooltipbox"><i class="fa fa-edit"></i>
+                                                    <div class="admin-common-tooltip">
+                                                        <span class="tool-text">Edit</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="action-icons-scan">
+                                                <div class="common-tooltipbox"><i class="fa fa-trash"></i>
+                                                    <div class="admin-common-tooltip">
+                                                        <span class="tool-text">Delete</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="qr-scan-box-container">
+                                <a class="qr-scan-box" href="#">
+                                    <div class="qr-image-box">
+                                        <h6>View Code</h6>
+                                        <img src="assets/images/qr-code.png" alt="QR Image">
+                                        <div class="view-scanner-icon">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="qr-info-box">
+                                    <div class="qr-title-name">
+                                        <h3>Table 1</h3>
+                                    </div>
+                                    <div class="infor-icon-text">
+                                        <div class="icon-info">
+                                            <span class="icon-bg-info">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </div>
+                                        <p class="info-text">25/09/2020</p>
+                                    </div>
+                                    <div class="infor-icon-text">
+                                        <div class="icon-info">
+                                            <span class="icon-bg-info">
+                                                <i class="fa fa-globe"></i>
+                                            </span>
+                                        </div>
+                                        <p class="info-text"><a href="#">https://qrapp-twin/url/b09cfb6bd2ce48e2b71a7ba0</a></p>
+                                    </div>
+                                    <!-- <div class="scanned-items">
+                                        <span class="scanned-text">Scanned</span>
+                                            <span class="scanned-number">2</span>
+                                        </span>
+                                    </div> -->
+                                    <div class="qr-scan-icon-side">
+                                        <div class="icons-qr-scan">
+                                            <a href="#" class="action-icons-scan">
+                                                <div class="common-tooltipbox"><i class="fa fa-edit"></i>
+                                                    <div class="admin-common-tooltip">
+                                                        <span class="tool-text">Edit</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="action-icons-scan">
+                                                <div class="common-tooltipbox"><i class="fa fa-trash"></i>
+                                                    <div class="admin-common-tooltip">
+                                                        <span class="tool-text">Delete</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="qr-scan-box-container">
+                                <a class="qr-scan-box" href="#">
+                                    <div class="qr-image-box">
+                                        <h6>View Code</h6>
+                                        <img src="assets/images/qr-code.png" alt="QR Image">
+                                        <div class="view-scanner-icon">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="qr-info-box">
+                                    <div class="qr-title-name">
+                                        <h3>Table 1</h3>
+                                    </div>
+                                    <div class="infor-icon-text">
+                                        <div class="icon-info">
+                                            <span class="icon-bg-info">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </div>
+                                        <p class="info-text">25/09/2020</p>
+                                    </div>
+                                    <div class="infor-icon-text">
+                                        <div class="icon-info">
+                                            <span class="icon-bg-info">
+                                                <i class="fa fa-globe"></i>
+                                            </span>
+                                        </div>
+                                        <p class="info-text"><a href="#">https://qrapp-twin/url/b09cfb6bd2ce48e2b71a7ba0</a></p>
+                                    </div>
+                                    <!-- <div class="scanned-items">
+                                        <span class="scanned-text">Scanned</span>
+                                            <span class="scanned-number">2</span>
+                                        </span>
+                                    </div> -->
+                                    <div class="qr-scan-icon-side">
+                                        <div class="icons-qr-scan">
+                                            <a href="#" class="action-icons-scan">
+                                                <div class="common-tooltipbox"><i class="fa fa-edit"></i>
+                                                    <div class="admin-common-tooltip">
+                                                        <span class="tool-text">Edit</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="action-icons-scan">
+                                                <div class="common-tooltipbox"><i class="fa fa-trash"></i>
+                                                    <div class="admin-common-tooltip">
+                                                        <span class="tool-text">Delete</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="qr-scan-box-container">
+                                <a class="qr-scan-box" href="#">
+                                    <div class="qr-image-box">
+                                        <h6>View Code</h6>
+                                        <img src="assets/images/qr-code.png" alt="QR Image">
+                                        <div class="view-scanner-icon">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="qr-info-box">
+                                    <div class="qr-title-name">
+                                        <h3>Table 1</h3>
+                                    </div>
+                                    <div class="infor-icon-text">
+                                        <div class="icon-info">
+                                            <span class="icon-bg-info">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </div>
+                                        <p class="info-text">25/09/2020</p>
+                                    </div>
+                                    <div class="infor-icon-text">
+                                        <div class="icon-info">
+                                            <span class="icon-bg-info">
+                                                <i class="fa fa-globe"></i>
+                                            </span>
+                                        </div>
+                                        <p class="info-text"><a href="#">https://qrapp-twin/url/b09cfb6bd2ce48e2b71a7ba0</a></p>
+                                    </div>
+                                    <!-- <div class="scanned-items">
+                                        <span class="scanned-text">Scanned</span>
+                                            <span class="scanned-number">2</span>
+                                        </span>
+                                    </div> -->
+                                    <div class="qr-scan-icon-side">
+                                        <div class="icons-qr-scan">
+                                            <a href="#" class="action-icons-scan">
+                                                <div class="common-tooltipbox"><i class="fa fa-edit"></i>
+                                                    <div class="admin-common-tooltip">
+                                                        <span class="tool-text">Edit</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="action-icons-scan">
+                                                <div class="common-tooltipbox"><i class="fa fa-trash"></i>
+                                                    <div class="admin-common-tooltip">
+                                                        <span class="tool-text">Delete</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="qr-scan-box-container">
+                                <a class="qr-scan-box" href="#">
+                                    <div class="qr-image-box">
+                                        <h6>View Code</h6>
+                                        <img src="assets/images/qr-code.png" alt="QR Image">
+                                        <div class="view-scanner-icon">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="qr-info-box">
+                                    <div class="qr-title-name">
+                                        <h3>Table 1</h3>
+                                    </div>
+                                    <div class="infor-icon-text">
+                                        <div class="icon-info">
+                                            <span class="icon-bg-info">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </div>
+                                        <p class="info-text">25/09/2020</p>
+                                    </div>
+                                    <div class="infor-icon-text">
+                                        <div class="icon-info">
+                                            <span class="icon-bg-info">
+                                                <i class="fa fa-globe"></i>
+                                            </span>
+                                        </div>
+                                        <p class="info-text"><a href="#">https://qrapp-twin/url/b09cfb6bd2ce48e2b71a7ba0</a></p>
+                                    </div>
+                                    <!-- <div class="scanned-items">
+                                        <span class="scanned-text">Scanned</span>
+                                            <span class="scanned-number">2</span>
+                                        </span>
+                                    </div> -->
+                                    <div class="qr-scan-icon-side">
+                                        <div class="icons-qr-scan">
+                                            <a href="#" class="action-icons-scan">
+                                                <div class="common-tooltipbox"><i class="fa fa-edit"></i>
+                                                    <div class="admin-common-tooltip">
+                                                        <span class="tool-text">Edit</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="action-icons-scan">
+                                                <div class="common-tooltipbox"><i class="fa fa-trash"></i>
+                                                    <div class="admin-common-tooltip">
+                                                        <span class="tool-text">Delete</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        
                         <div class="tab-pane fade" id="lunch-content" role="tabpanel" aria-labelledby="lunch-tab">
                             
                         </div>
