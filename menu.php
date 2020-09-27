@@ -9,7 +9,7 @@
 					<div class="admin-menu-img-box default-menu-box">
 						<i class="fas fa-utensils"></i>
 						<div class="menu-enter-btns">
-							<p class="enterlocal-btn"><a href="#">Enter</a></p>
+							<p class="enterlocal-btn"><a href="menu-products.php">Enter</a></p>
 							<p class="enterlocal-btn"><a href="#">Localize</a></p>
 						</div>
 					</div>
@@ -50,7 +50,7 @@
 					<div class="admin-menu-img-box">
 						<img src="assets/images/admin-bg.png" alt="Menu Image">
 						<div class="menu-enter-btns">
-							<p class="enterlocal-btn"><a href="#">Enter</a></p>
+							<p class="enterlocal-btn"><a href="menu-products.php">Enter</a></p>
 							<p class="enterlocal-btn"><a href="#">Localize</a></p>
 						</div>
 					</div>
@@ -214,7 +214,7 @@
 					<div class="admin-menu-img-box">
 						<img src="assets/images/pizza.jpg" alt="Pizza Image">
 						<div class="menu-enter-btns">
-							<p class="enterlocal-btn"><a href="#">Enter</a></p>
+							<p class="enterlocal-btn"><a href="menu-products.php">Enter</a></p>
 							<p class="enterlocal-btn"><a href="#">Localize</a></p>
 						</div>
 					</div>

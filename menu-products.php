@@ -140,7 +140,7 @@
                                     </div>
                                     </a>
                                 </li> -->
-                                <li><a class="common-tooltipbox" href="#">
+                                <li><a class="common-tooltipbox" href="menu-products-add.php">
                                     <i class="fa fa-plus"></i>
                                     <div class="admin-common-tooltip">
                                         <span class="tool-text">Add Product</span>

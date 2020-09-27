@@ -3,7 +3,7 @@
         <h1>Chicken</h1>
     </div>
     <div class="admin-productadd-container">
-        <a href="#">
+        <a href="menu-products.php">
             <div class="product-back common-button-admin">
                 <p><i class="fa fa-angle-left"></i> Back</p>
             </div>

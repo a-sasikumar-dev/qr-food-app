@@ -4,22 +4,19 @@
     </div> -->
     <div class="admin-qrgenerator-container">
         <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 pad-right-0">
                 <div class="admin-qrgenerator-aside">
-                    <div class="gr-header-tilte">
-                        <h2>Add Group</h2>
-                    </div>
-                    <!-- <div class="product-category-header">
-                        <h5>Categories</h5>
+                    <div class="product-category-header">
+                        <h5>Groups</h5>
                         <a data-toggle="collapse" href="#categoryAdd" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <div class="add-category common-tooltipbox add-cat"><i class="fa fa-plus"></i>
                                 <div class="admin-common-tooltip">
-                                    <span class="tool-text">Add Category</span>
+                                    <span class="tool-text">Add Group</span>
                                 </div>
                             </div>
                             <div class="add-category common-tooltipbox cancel-cat"><i class="fa fa-times"></i>
                                 <div class="admin-common-tooltip">
-                                    <span class="tool-text">Cancel Category</span>
+                                    <span class="tool-text">Cancel Group</span>
                                 </div>
                             </div>
                         </a>
@@ -30,14 +27,7 @@
                                         <form>
                                             <div class="form-group">
                                                 <input type="text" class="form-control" placeholder=" ">
-                                                <label class="adminpanel-formlabel">Add a Category</label>
-                                            </div>
-                                            <div class="form-group common_custom_radio">
-                                                <label class="label-block">Status</label>
-                                                <input type="radio" id="active" name="setStatus">
-                                                <label for="active">Active</label>
-                                                <input type="radio" id="inactive" name="setStatus">
-                                                <label for="inactive">In Active</label>
+                                                <label class="adminpanel-formlabel">Group name</label>
                                             </div>
                                             <div class="buttons-adminform">
                                                 <button class="common-button-admin" type="button" data-toggle="collapse" href="#categoryAdd" role="button" aria-expanded="false" aria-controls="collapseExample">Cancel</button>
@@ -48,11 +38,11 @@
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                     <ul class="admin-qrgenerator-tab nav" id="admin-qrgenerator-tab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast-content" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                            <span class="font-weight-bold">Breakfast</span>
+                            <span class="font-weight-bold">Basic</span>
                             </a>
                             <div class="status-view category-edit-icons">
                                 <a href="#"><i class="fas fa-edit"></i> 
@@ -69,7 +59,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch-content" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                            <span class="font-weight-bold">Lunch</span>
+                            <span class="font-weight-bold">Standard</span>
                             </a>
                             <div class="status-view category-edit-icons">
                                 <a href="#"><i class="fas fa-edit"></i> 
@@ -86,7 +76,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner-content" role="tab" aria-controls="v-pills-messages" aria-selected="false">
-                            <span class="font-weight-bold">Dinner</span>
+                            <span class="font-weight-bold">Ultra</span>
                             </a>
                             <div class="status-view category-edit-icons">
                                 <a href="#"><i class="fas fa-edit"></i> 
@@ -104,29 +94,14 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-9 col-lg-9 col-md-9 col-9">
+            <div class="col-xl-9 col-lg-9 col-md-9 col-9 pad-left-0">
                  <div class="admin-qrgenerator-right-side">
-                    <!-- <div class="rightheader-relative">
+                    <div class="rightheader-relative">
                         <div class="product-rightcat-header">
-                            <h5>Breakfast</h5>
+                            <h5>Basic</h5>
                         </div>
                         <div class="product-rightcat-header-icons">
                             <ul class="right-caticons">
-                                <li class="select-sortby">
-                                    <div class="dropdown">
-                                        <a class="dropdown-toggle common-tooltipbox" data-toggle="dropdown"><i class="fas fa-sort-alpha-down"></i>
-                                            <div class="admin-common-tooltip">
-                                                <span class="tool-text">Sort by</span>
-                                            </div>
-                                        </a>
-                                        <div class="dropdown-menu">
-                                            <a href="#" class="dropdown-item">Priority</a>
-                                            <a href="#" class="dropdown-item">Price: Low to High</a>
-                                            <a href="#" class="dropdown-item">Price: High to Low</a>
-                                            <a href="#" class="dropdown-item">Date</a>
-                                        </div>
-                                    </div>
-                                </li>
                                 <li><a class="search-category common-tooltipbox">
                                     <div class="search-box-open"><i class="fa fa-search"></i>
                                         <input type="search" class="form-control">
@@ -136,12 +111,39 @@
                                     </div>
                                     </a>
                                 </li>
-                                <li><a class="common-tooltipbox" href="#">
-                                    <i class="fa fa-filter"></i>
-                                    <div class="admin-common-tooltip">
-                                        <span class="tool-text">Filter</span>
+                                <li class="qr-table-header"><a data-toggle="collapse" href="#qrtableAdd" role="button" aria-expanded="false" aria-controls="qrtableAddExample">
+                                    <div class="common-tooltipbox add-cat"><i class="fas fa-qrcode"></i>
+                                        <div class="admin-common-tooltip">
+                                            <span class="tool-text">Generate QR Code</span>
+                                        </div>
                                     </div>
-                                    </a>
+                                    <div class="common-tooltipbox cancel-cat"><i class="fa fa-times"></i>
+                                        <div class="admin-common-tooltip">
+                                            <span class="tool-text">Cancel Generate QR Code</span>
+                                        </div>
+                                    </div></a>
+                                    <div class="popover-category">
+                                        <div class="collapse" id="qrtableAdd">
+                                            <div class="card">
+                                                <div class="admin-panel-form">
+                                                    <form>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" placeholder=" ">
+                                                            <label class="adminpanel-formlabel">Name</label>
+                                                        </div>
+                                                        <div class="form-group qr-quantity-inc-dec">
+                                                            <label class="label-block">Quantity</label>
+                                                            <input type="number" value="0" min="0" max="20">
+                                                        </div>
+                                                        <div class="buttons-adminform">
+                                                            <button class="common-button-admin" type="button" data-toggle="collapse" href="#qrtableAdd" role="button" aria-expanded="false" aria-controls="qrtableAddExample">Cancel</button>
+                                                            <button class="common-button-admin" type="submit">Add</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
                                 <li><a class="common-tooltipbox" href="#">
                                     <i class="fa fa-plus"></i>
@@ -152,7 +154,7 @@
                                 </li>
                             </ul>
                         </div>
-                    </div> -->
+                    </div>
                     <!-- Tabs content -->
                     <div class="tab-content" id="product-category-tabContent">
                         <div class="tab-pane fade show active" id="breakfast-content" role="tabpanel" aria-labelledby="breakfast-tab">

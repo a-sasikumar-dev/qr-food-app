@@ -641,28 +641,28 @@ button:focus
 .status-view a:hover .header-tooltip, .action-icons a:hover .header-tooltip, .action-icons .menu-enable-disable:hover .header-tooltip,
 .common-tooltipbox:hover .admin-common-tooltip
 {
-    display: block;
-    animation: tooltips-vert 300ms ease-out forwards;
+  display: block;
+  animation: tooltips-vert 300ms ease-out forwards;
 } 
 .status-view .header-tooltip:before, .action-icons .header-tooltip:before, .admin-common-tooltip:before
 {
-    position: absolute;
-    top: 0;
-    left: 46%;
-    margin-top: -8px;
-    content: "";
-    display: inline-block;
-    border-top: 7px solid transparent;
-    border-right: 7px solid #000;
-    border-bottom: 7px solid transparent;
-    transform: rotate(90deg);
+  position: absolute;
+  top: 0;
+  left: 45%;
+  margin-top: -8px;
+  content: "";
+  display: inline-block;
+  border-top: 7px solid transparent;
+  border-right: 7px solid #000;
+  border-bottom: 7px solid transparent;
+  transform: rotate(90deg);
 }
 .status-view .header-tooltip .tool-text, .action-icons .header-tooltip .tool-text , .admin-common-tooltip .tool-text
 {
-    display: block;
-    min-width: 14px;
-    width: 100%;
-    color: #fff;
+  display: block;
+  min-width: 14px;
+  width: 100%;
+  color: #fff;
 }
 .status-view a, .common-tooltipbox
 {
@@ -1444,14 +1444,13 @@ button:focus
   padding-top: 15px;
   background: #f5f5f5;
 }
-.adminpanel-addproduct-tab::-webkit-scrollbar
+.adminpanel-addproduct-tab::-webkit-scrollbar, .admin-qrgenerator-tab::-webkit-scrollbar
 {
   width: 3px;
 }
-.adminpanel-addproduct-tab::-webkit-scrollbar-thumb
+.adminpanel-addproduct-tab::-webkit-scrollbar-thumb, .admin-qrgenerator-tab::-webkit-scrollbar-thumb
 {
   background-color: #cfcfcf;
-  outline: 1px solid slategrey;
 }
 .adminpanel-addproduct-tab.nav
 {
@@ -1465,7 +1464,6 @@ button:focus
 {
   color: #777;
   background: #fff;
-  position: relative;
   padding: 15px 10px 15px;
   letter-spacing: 0.3px;
   margin-bottom: 10px;
@@ -1479,7 +1477,7 @@ button:focus
 {
   color: var(--adminpanel-main-color);
 }
-.adminpanel-addproduct-tab .nav-link:hover
+.adminpanel-addproduct-tab .nav-link:hover, .admin-qrgenerator-tab .nav-item .nav-link:hover
 {
   color: #3d3d3d;
   box-shadow: 0 10px 25px 0 rgba(116,103,91,.3);
@@ -1501,7 +1499,7 @@ button:focus
 {
   opacity: 1;
 }
-.adminpanel-addproduct-tab .nav-link span
+.adminpanel-addproduct-tab .nav-link span, .admin-qrgenerator-tab .nav-link span
 {
   width: 60%;
   display: inline-block;
@@ -1577,6 +1575,7 @@ button:focus
   left: 1px;
   top: 50px;
   width: 100%;
+  z-index: 9;
 }
 .popover-category .collapse
 {
@@ -1798,13 +1797,11 @@ button:focus
   overflow-x: hidden;
   padding: 10px;
 }
-.right-category-menu .tab-pane::-webkit-scrollbar, .admin-qrgenerator-right-side .tab-pane::-webkit-scrollbar,
-.admin-qrgenerator-tab::-webkit-scrollbar
+.right-category-menu .tab-pane::-webkit-scrollbar, .admin-qrgenerator-right-side .tab-pane::-webkit-scrollbar
 {
   width: 3px;
 }
-.right-category-menu .tab-pane::-webkit-scrollbar-thumb, .admin-qrgenerator-right-side .tab-pane::-webkit-scrollbar,
-.admin-qrgenerator-tab::-webkit-scrollbar
+.right-category-menu .tab-pane::-webkit-scrollbar-thumb, .admin-qrgenerator-right-side .tab-pane::-webkit-scrollbar-thumb
 {
   background-color: #cfcfcf;
 }
@@ -1892,15 +1889,15 @@ button:focus
   border-radius: 50px 10px 10px 50px;
   z-index: 2;
 }
-.add-category.cancel-cat .fa, .add-category.add-cat .fa
+.add-category.cancel-cat .fa, .add-category.add-cat .fa, .qr-table-header .add-cat .fa, .qr-table-header .cancel-cat .fa
 {
   animation: tooltiptransform-info 200ms linear;
 }
-.product-category-header [aria-expanded="false"] .add-category.cancel-cat
+.product-category-header [aria-expanded="false"] .add-category.cancel-cat, .qr-table-header [aria-expanded="false"] .cancel-cat
 {
   display: none;
 }
-.product-category-header [aria-expanded="true"] .add-category.add-cat
+.product-category-header [aria-expanded="true"] .add-category.add-cat, .qr-table-header [aria-expanded="true"] .add-cat
 {
   display: none;
 }
@@ -1950,6 +1947,10 @@ button:focus
   box-shadow: 5px -5px 10px -5px #c1c1c1, 5px 6px 10px -5px #c1c1c1;
   top: 50%;
   transform: translateY(-50%);
+}
+.category-action-btns li a i
+{
+  font-size: 13px;
 }
 .category-action-btns li .admin-tooltip
 {
@@ -2315,11 +2316,16 @@ button:focus
 /* Adminpanel QR Generator page*/
 .admin-qrgenerator-container
 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.admin-qrgenerator-aside
+{
+  padding: 0px 15px 15px;
 }
 .admin-qrgenerator-tab
 {
+  margin-top: 10px;
   padding-top: 15px;
   padding-left: 15px;
   display: block;
@@ -2327,42 +2333,55 @@ button:focus
 }
 .admin-qrgenerator-tab .nav-item
 {
-  position: relative;
-}
-.admin-qrgenerator-tab .nav-item .nav-link
-{
   list-style: none;
-  margin: auto;
-  min-height: 50px;
-  border-left: 1px dashed #f1c9cf;
-  padding: 0 0 20px 25px;
+  padding: 0 0 1px 20px;
   position: relative;
+  color: #777;
 }
-.admin-qrgenerator-tab .nav-item .nav-link:before
+.admin-qrgenerator-tab .nav-item:before
 {
+  content: " ";
   position: absolute;
   left: -11px;
-  top: 0;
-  content: " ";
+  top: 15px;
   border: 5px solid #f1c9cf;
   border-radius: 500%;
   background: var(--adminpanel-main-color);
   height: 20px;
   width: 20px;
   transition: all 500ms ease-in-out;
+  z-index: 1;
 }
-.admin-qrgenerator-tab .nav-item:last-child .nav-link 
+.admin-qrgenerator-tab .nav-item:after 
 {
-    border-left: 0;
+  content: "";
+  position: absolute;
+  border-left: 1px dashed #f1c9cf;
+  left: -2px;
+  top: 25px;
+  height: 100%;
+  z-index: 0;
 }
-.admin-qrgenerator-tab .nav-item .nav-link
+.admin-qrgenerator-tab .nav-item:last-child:after
 {
-  position: relative;
-  color: #777;
+  border-left: 0;
 }
 .admin-qrgenerator-tab .category-edit-icons
 {
-  top: 6px;
+  transform: translateY(-80%);
+}
+.admin-qrgenerator-tab .nav-item .nav-link
+{
+  color: #777;
+  background: #fff;
+  padding: 15px 10px 15px;
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+  box-shadow: 0 10px 20px 0 rgba(116,103,91,.059);
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s all linear;
+  border-radius: 10px;
 }
 .admin-qrgenerator-tab .nav-item .nav-link.active
 {
@@ -2373,17 +2392,27 @@ button:focus
   background: #fff;
 }
 /* QR scan Right side*/
+.qr-table-header .popover-category
+{
+  left: auto;
+  right: 50px;
+  width: 300px;
+}
+.qr-table-header .popover-category .collapse:before
+{
+  left: auto;
+  right: 0px;
+}
 .admin-qrgenerator-right-side
 {
-  border: 2px solid #eaeaea;
-  padding: 10px;
-  border-radius: 5px;
+  border-left: 1px solid #ececec;
+  padding: 0px 15px 15px;
 }
 .qr-scan-box-container
 {
   position: relative;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-top: 15px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -2410,7 +2439,6 @@ button:focus
 {
   border-radius: 5px;
   position: relative;
-  z-index: 1;
   background: #ffffff;
   padding: 15px 20px 15px 15px;
   box-shadow: 1px 0 5px 3px #e2e2e2;
@@ -2460,15 +2488,13 @@ button:focus
 {
   margin-bottom: 0px;
 }
-.icon-info
-{
-  margin-bottom: 5px;
-}
 .info-text
 {
   display: inline-block;
   margin-left: 10px;
   margin-bottom: 0px;
+  width: calc(100% - 45px);
+  vertical-align: middle;
 }
 .info-text a
 {
@@ -2517,6 +2543,8 @@ button:focus
   color: #ffffff;
   position: relative;
   display: inline-block;
+  margin-bottom: 0px;
+  vertical-align: middle;
 }
 .icon-info:after {
   content: '';
@@ -2545,12 +2573,11 @@ button:focus
 }
 .infor-icon-text
 {
-  margin-bottom: 5px;
+  margin-top: 20px;
 }
 .qr-title-name
 {
-  margin-bottom: 20px;
-  border-bottom: 1px solid #cacaca;
+  border-bottom: 1px solid #ececec;
 }
 .action-icons-scan .common-tooltipbox i
 {
@@ -2558,6 +2585,7 @@ button:focus
   border-radius: 50px;
   background: #f1f1f1;
   border-right: 2px solid #cacaca;
+  font-size: 13px;
 }
 .scanned-items
 {
@@ -2601,4 +2629,41 @@ button:focus
   font-size: 30px;
   border-radius: 50%;
   box-shadow: 0 0 5px #ffffff;
+}
+.qr-quantity-inc-dec .input-group
+{
+  width: 50%;
+  border: 2px solid var(--adminpanel-main-color);
+  border-radius: 50px;
+}
+.qr-quantity-inc-dec .input-group-prepend button, .qr-quantity-inc-dec .input-group-append button
+{
+  border: none;
+  background: transparent;
+  min-width: 40px !important;
+  padding: 0px;
+}
+.qr-quantity-inc-dec .form-control 
+{
+  height: 35px;
+  border: none;
+  border-left: 1px solid #9a9a9a;
+  border-right: 1px solid #9a9a9a;
+}
+.qr-quantity-inc-dec .input-group-prepend button:hover, .qr-quantity-inc-dec .input-group-append button:hover,
+.qr-quantity-inc-dec .input-group-prepend button:focus, .qr-quantity-inc-dec .input-group-append button:focus,
+.qr-quantity-inc-dec .btn-outline-secondary:not(:disabled):not(.disabled):active
+{
+  background: transparent;
+  color: #000;
+}
+.qr-quantity-inc-dec .input-group-prepend button strong, .qr-quantity-inc-dec .input-group-append button strong
+{
+  background: #ca3d26;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  line-height: 22px;
+  border-radius: 50px;
+  color: #fff;
 }
