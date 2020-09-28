@@ -159,7 +159,7 @@
                     <div class="tab-content" id="product-category-tabContent">
                         <div class="tab-pane fade show active" id="breakfast-content" role="tabpanel" aria-labelledby="breakfast-tab">
                             <div class="qr-scan-box-container">
-                                <a class="qr-scan-box" href="#">
+                                <div class="qr-scan-box" data-toggle="modal" data-target="#QRFramesetModal">
                                     <div class="qr-image-box">
                                         <h6>View Code</h6>
                                         <img src="assets/images/qr-code.png" alt="QR Image">
@@ -167,7 +167,7 @@
                                             <i class="fa fa-eye"></i>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <div class="qr-info-box">
                                     <div class="qr-title-name">
                                         <h3>Table 1</h3>
@@ -214,7 +214,7 @@
                                 </div>
                             </div>
                             <div class="qr-scan-box-container">
-                                <a class="qr-scan-box" href="#">
+                                <div class="qr-scan-box" data-toggle="modal" data-target="#QRFramesetModal">
                                     <div class="qr-image-box">
                                         <h6>View Code</h6>
                                         <img src="assets/images/qr-code.png" alt="QR Image">
@@ -222,7 +222,7 @@
                                             <i class="fa fa-eye"></i>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <div class="qr-info-box">
                                     <div class="qr-title-name">
                                         <h3>Table 1</h3>
@@ -269,7 +269,7 @@
                                 </div>
                             </div>
                             <div class="qr-scan-box-container">
-                                <a class="qr-scan-box" href="#">
+                                <div class="qr-scan-box" data-toggle="modal" data-target="#QRFramesetModal">
                                     <div class="qr-image-box">
                                         <h6>View Code</h6>
                                         <img src="assets/images/qr-code.png" alt="QR Image">
@@ -277,7 +277,7 @@
                                             <i class="fa fa-eye"></i>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <div class="qr-info-box">
                                     <div class="qr-title-name">
                                         <h3>Table 1</h3>
@@ -324,7 +324,7 @@
                                 </div>
                             </div>
                             <div class="qr-scan-box-container">
-                                <a class="qr-scan-box" href="#">
+                                <div class="qr-scan-box" data-toggle="modal" data-target="#QRFramesetModal">
                                     <div class="qr-image-box">
                                         <h6>View Code</h6>
                                         <img src="assets/images/qr-code.png" alt="QR Image">
@@ -332,7 +332,7 @@
                                             <i class="fa fa-eye"></i>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <div class="qr-info-box">
                                     <div class="qr-title-name">
                                         <h3>Table 1</h3>
@@ -379,7 +379,7 @@
                                 </div>
                             </div>
                             <div class="qr-scan-box-container">
-                                <a class="qr-scan-box" href="#">
+                                <div class="qr-scan-box" data-toggle="modal" data-target="#QRFramesetModal">
                                     <div class="qr-image-box">
                                         <h6>View Code</h6>
                                         <img src="assets/images/qr-code.png" alt="QR Image">
@@ -387,7 +387,7 @@
                                             <i class="fa fa-eye"></i>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <div class="qr-info-box">
                                     <div class="qr-title-name">
                                         <h3>Table 1</h3>
@@ -434,7 +434,7 @@
                                 </div>
                             </div>
                             <div class="qr-scan-box-container">
-                                <a class="qr-scan-box" href="#">
+                                <div class="qr-scan-box" data-toggle="modal" data-target="#QRFramesetModal">
                                     <div class="qr-image-box">
                                         <h6>View Code</h6>
                                         <img src="assets/images/qr-code.png" alt="QR Image">
@@ -442,7 +442,7 @@
                                             <i class="fa fa-eye"></i>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <div class="qr-info-box">
                                     <div class="qr-title-name">
                                         <h3>Table 1</h3>
@@ -502,4 +502,148 @@
             </div>
         </div>
     </div>
+
+<!-- Modal popup for QR Frame setup -->
+<div class="QR-frameset-popup modal fade" id="QRFramesetModal">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header popup-title">
+                <h5 class="modal-title">Customize Your Frame</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <!--Carousel Wrapper-->
+                        <div id="qr-bg-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                            <!--Slides-->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="qr-code-scanner-frame">
+                                        <img class="d-block bg-frame" src="assets/images/pizza.jpg" alt="First slide">
+                                        <div class="qr-frame-body">
+                                            <div class="qr-frame-sub-body">
+                                                <div class="frame-title">
+                                                    <h4>Table</h4>
+                                                </div>
+                                                <div class="qr-scan-code-with-text">
+                                                    <h3 class="qr-menu-edittxt">Scan for Menu</h3>
+                                                    <div class="qr-generate-code">
+                                                        <img src="assets/images/qr-code.png" alt="QR Image">
+                                                    </div>
+                                                    <div class="qr-code-text">
+                                                        <p>Scan Code</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="qr-code-scanner-frame">
+                                        <img class="d-block bg-frame" src="assets/images/chicken.jpg" alt="Second slide">
+                                        <div class="qr-frame-body">
+                                            <div class="qr-frame-sub-body">
+                                                <div class="frame-title">
+                                                    <h4>Table</h4>
+                                                </div>
+                                                <div class="qr-scan-code-with-text">
+                                                    <h3 class="qr-menu-edittxt">Scan for Menu</h3>
+                                                    <div class="qr-generate-code">
+                                                        <img src="assets/images/qr-code.png" alt="QR Image">
+                                                    </div>
+                                                    <div class="qr-code-text">
+                                                        <p>Scan Code</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="qr-code-scanner-frame">
+                                        <img class="d-block bg-frame" src="assets/images/rice.jpg" alt="Third slide">
+                                        <div class="qr-frame-body">
+                                            <div class="qr-frame-sub-body">
+                                                <div class="frame-title">
+                                                    <h4>Table</h4>
+                                                </div>
+                                                <div class="qr-scan-code-with-text">
+                                                    <h3 class="qr-menu-edittxt">Scan for Menu</h3>
+                                                    <div class="qr-generate-code">
+                                                        <img src="assets/images/qr-code.png" alt="QR Image">
+                                                    </div>
+                                                    <div class="qr-code-text">
+                                                        <p>Scan Code</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.Slides-->
+                            <!--Controls-->
+                            <!-- <a class="carousel-control-prev" href="#qr-bg-thumb" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#qr-bg-thumb" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a> -->
+                            <!--/.Controls-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#qr-bg-thumb" data-slide-to="0">
+                                    <img class="d-block" src="assets/images/pizza.jpg" class="img-fluid">
+                                </li>
+                                <li data-target="#qr-bg-thumb" data-slide-to="1" class="active">
+                                    <img class="d-block" src="assets/images/chicken.jpg" class="img-fluid">
+                                </li>
+                                <li data-target="#qr-bg-thumb" data-slide-to="2">
+                                    <img class="d-block" src="assets/images/rice.jpg" class="img-fluid">
+                                </li>
+                            </ol>
+                        </div> 
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
+                    </div>
+                </div>
+                <!-- <div class="admin-panel-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder=" ">
+                            <label class="adminpanel-formlabel">Add a menu title</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder=" "></textarea>
+                            <label class="adminpanel-formlabel">Add a menu description</label>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                                    <h6 class="upload-img">Upload Image</h6>        
+                                </div>
+                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8">
+                                    <input type="file" id="createmenu-file" class="inputfile createmenu-file"/>
+                                    <label for="createmenu-file">
+                                        <figure><i class="fa fa-upload"></i></figure>
+                                    </label>
+                                    <p class="drop-file-txt">Drop file here</p>
+                                    <p class="drop-file-txt">Only *.jpeg and *.png images will be accepted</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons-adminform">
+                            <button class="common-button-admin" type="button" data-dismiss="modal">Cancel</button>
+                            <button class="common-button-admin" type="submit">Save</button>
+                        </div>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
 <?php include "adminpanel_footer.html" ?>        
