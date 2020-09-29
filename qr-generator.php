@@ -646,4 +646,4 @@
         </div>
     </div>
 </div>
-<?php include "adminpanel_footer.html" ?>        
+<?php include "adminpanel_footer.html" ?>
