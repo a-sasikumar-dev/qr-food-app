@@ -1207,6 +1207,7 @@ button:focus
   z-index: 9;
   color: #000;
   font-weight: bold;
+  letter-spacing: 0.3px;
 }
 .admin-panel-form .form-control
 {
@@ -1222,9 +1223,34 @@ button:focus
 {
   height: 100px;
 }
+
+/* Admin panel form textbox styles */
 .admin-panel-form .form-control:focus
 {
   border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.admin-panel-form .bootstrap-select>.dropdown-toggle:hover, .admin-panel-form .bootstrap-select>.dropdown-toggle
+{
+  background: transparent;
+}
+.admin-panel-form .btn-light:not(:disabled):not(.disabled).active, .admin-panel-form .btn-light:not(:disabled):not(.disabled):active, .admin-panel-form .show>.btn-light.dropdown-toggle,
+.bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle
+{
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); 
+}
+.admin-panel-form .bootstrap-select>.dropdown-toggle
+{
+  height: 100%;
+}
+.admin-panel-form .bootstrap-select .dropdown-toggle .filter-option-inner-inner
+{
+  font-size: 14px;
+}
+.admin-panel-form .bootstrap-select .dropdown-menu
+{
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
 }
 .admin-panel-form .form-control:placeholder-shown + .adminpanel-formlabel
 {
@@ -1232,12 +1258,15 @@ button:focus
   transform: translateX(0px) translateY(0px);
   font-size: 14px;
   color: #9c9c9c;
+  font-weight: normal;
 }
 .admin-panel-form .form-control:focus + .adminpanel-formlabel
 {
   transform: translateX(8px) translateY(-21px);
   font-size: 14px;
   color: #000000;
+  font-weight: bold;
+  letter-spacing: 0.3px;
 }
 .buttons-adminform
 {
@@ -2835,17 +2864,16 @@ button:focus
   margin-top: -60px;
   display: inline-block;
 }
-.avatar-wrapper {
+.avatar-wrapper 
+{
   position: relative;
-  height: 150px;
-  width: 150px;
-  margin: auto;
-  border-radius: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
   transition: all .3s ease;
-  background: #fff;
+  background: #efefef;
   box-shadow: 0 0 4px 1px #dcdcdc;
   border: 2px solid #fff;
-  top: -15px;
 }
 .avatar-wrapper:hover .profile-pic {
   opacity: .5;
@@ -2948,7 +2976,7 @@ button:focus
 {
   content: "";
   display: block;
-  width: 97%;
+  width: 99%;
   height: 2px;
   background: var(--adminpanel-main-color);
   bottom: -4px;
@@ -2976,18 +3004,6 @@ button:focus
   padding-left: 0;
   padding-right: 30px;
 }
-/*.profile-common-box-left, .profile-common-box-right
-{
-  display: flex;
-  align-items: center;
-  padding: 15px;
-  margin-top: 15px;
-}
-.profile-common-box-right
-{
-  margin-left: auto;
-  margin-right: 40px;
-}*/
 .custom-profile-col
 {
   padding: 0 5px;
@@ -3045,4 +3061,127 @@ button:focus
 .common-infor-box .admin-panel-form .form-group:last-child
 {
   margin-bottom: 0px;
+}
+.profile-common-box .admin-panel-form .input-group .adminpanel-formlabel
+{
+  left: 40px;
+}
+.profile-common-box .admin-panel-form .input-group .input-group-text
+{
+  border-radius: 4px 0 0 4px;
+  background: var(--adminpanel-main-color);
+  border: 1px solid var(--adminpanel-main-color);
+  color: #fff;
+}
+.profile-common-box .admin-panel-form .input-group .form-control
+{
+  border-radius: 0 4px 4px 0; 
+}
+.input-group:focus .input-group-text
+{
+  background: #000;
+}
+.profile-common-box .admin-panel-form .input-group .form-control::placeholder
+{
+  color: #9c9c9c;
+}
+.social-get-links
+{
+  margin-bottom: 0px;
+  margin-top: 20px;
+  padding: 0;
+  text-align: center;
+}
+.social-get-links li
+{
+  display: inline-block;
+  list-style: none;
+  margin-right: 5px;
+}
+.social-get-links li:last-child
+{
+  margin-right: 0px;
+}
+.social-get-links li i 
+{
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50px;
+  box-shadow: 0px 3px 4px #c1c1c1;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.social-get-links li i:after 
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  background: #ffffff40;
+  transition: 0.2s all linear;
+  border-radius: 50px;
+}
+.social-get-links li i:hover:after 
+{
+  width: 100%;
+}
+.social-get-links li .fa-facebook
+{
+  background: #3b5998;
+}
+.social-get-links li .fa-instagram
+{
+  background: linear-gradient(#fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)
+}
+.social-get-links li .fa-linkedin
+{
+  background: #0085AE;
+}
+.social-get-links li .fa-twitter
+{
+  background: #32CCFE;
+}
+.social-get-links li .fa-youtube
+{
+  background: #C52F30;
+}
+.social-get-links li .fa-pinterest
+{
+  background: #CC2127;
+}
+.adress-botom-margin
+{
+  margin-bottom: 30px;
+}
+.save-button-profile
+{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #fff;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0px #c1c1c1;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+}
+.save-button-profile i
+{
+  font-size: 22px;
+  color: #00ab4c;
+}
+.save-button-profile span
+{
+  display: block;
 }
