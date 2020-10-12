@@ -2854,15 +2854,15 @@ button:focus
 .profile-pic-info
 {
   text-align: center;
+  position: relative;
+  color: #000;
+  padding: 0px;
+  z-index: 1;
+  height: 100%;
 }
 .profile-pic-info input[type=file]
 {
   display: none;
-}
-.avatar-with-name
-{
-  margin-top: -60px;
-  display: inline-block;
 }
 .avatar-wrapper 
 {
@@ -2872,8 +2872,8 @@ button:focus
   border-radius: 50%;
   transition: all .3s ease;
   background: #efefef;
-  box-shadow: 0 0 4px 1px #dcdcdc;
   border: 2px solid #fff;
+  margin: 0 auto;
 }
 .avatar-wrapper:hover .profile-pic {
   opacity: .5;
@@ -2882,7 +2882,7 @@ button:focus
   height: 100%;
   width: 100%;
   transition: all .3s ease;
-  border-radius: 20px;
+  border-radius: 50px;
 }
 .avatar-wrapper .upload-button {
   position: absolute;
@@ -2966,10 +2966,9 @@ button:focus
 .profile-title
 {
   display: inline-block;
-  margin-bottom: 19px;
-  font-size: 16px;
+  margin-bottom: 30px;
+  font-size: 18px;
   font-weight: bold;
-  letter-spacing: 0.3px;
   position: relative;
 }
 .profile-title:after
@@ -3047,12 +3046,12 @@ button:focus
 }
 .profile-info-icon
 {
-  font-size: 40px;
+  font-size: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
-  color: #ca3d26;
+  color: #7d7d7d;
 }
 .common-infor-box .admin-panel-form
 {
@@ -3184,4 +3183,258 @@ button:focus
 .save-button-profile span
 {
   display: block;
+}
+
+/*profile page*/
+.profile-box-left
+{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.profile-box
+{
+  border-radius: 5px 5px 0 0;
+  background: #fff;
+  box-shadow: 0 0 10px #cecece;
+  height: 100%;
+}
+.profile-box-right
+{
+  padding-left: 0px;
+}
+.profile-information-box
+{
+  /*position: absolute;*/
+  width: 100%;
+  top: 50%;
+  box-shadow: 1px 0 10px #cecece, 0px 0 0px #cecece;
+  /*height: 335px;
+  overflow-x: hidden;
+  overflow-y: auto;*/
+  /*transform: translateY(-50%);*/
+  border-radius: 0 5px 5px 0;
+  background: #fff;
+}
+.bg-img-profile img
+{
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+.bg-img-profile
+{
+  position: absolute;
+  height: 100%;
+}
+.bg-img-profile:after
+{
+  content: "";
+  background: rgba(0, 0, 0, 0.62);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 5px 5px 0 0;
+}
+.profile-description
+{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.profile-tab
+{
+  border-radius: 0 0 5px 5px;
+  background: var(--adminpanel-main-color);
+  z-index: 1;
+  position: relative;
+}
+.profile-tab .nav-tabs .nav-link
+{
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0px;
+  background: transparent;
+  color: #fff;
+  border-top: 3px solid transparent;
+}
+.profile-tab .nav-tabs .nav-link.active
+{
+  border-top: 3px solid #fff; 
+  background: rgba(255, 255, 255, 0.12);
+}
+.profile-information-box::-webkit-scrollbar
+{
+  width: 3px;
+}
+.profile-information-box::-webkit-scrollbar-thumb
+{
+  background-color: #d6d6d6;
+  border-radius: 50px;
+}
+.profile-information-box .admin-panel-form .form-group:last-child
+{
+  margin-bottom: 0px;
+}
+
+.profile-form-box 
+{
+  position: relative;
+  margin-bottom: 30px;
+}
+.profile-form-box:after 
+{
+  display: table;
+  clear: both;
+  content: "";
+}
+.profile-form-box .inner-box-left, .profile-form-box .inner-box-right
+{
+  position: relative;
+  float: left;
+  width: 50%;
+}
+.profile-form-box .inner-box-right
+{
+  float: right;
+  text-align: left;
+}
+.profile-form-box .inner-box-left .info-box, .profile-form-box .inner-box-right .info-box 
+{
+  position: relative;
+  padding: 20px 30px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #cecece;
+  margin-left: 80px;
+  border-radius: 5px;
+}
+.profile-form-box .inner-box-left .info-box:before, .profile-form-box .inner-box-right .info-box:before 
+{
+  position: absolute;
+  top: 0;
+  bottom: -30px;
+  right: 100%;
+  border-left: 2px dashed #dddddd;
+  content: "";
+  margin-right: 80px;
+}
+.profile-form-box .inner-box-left .info-box 
+{
+  margin-left: 0;
+  margin-right: 80px;
+}
+.profile-form-box .inner-box-left .info-box:before 
+{
+  right: auto;
+  left: 100%;
+  margin-left: 80px;
+  margin-right: 0;
+}
+.profile-form-box .inner-box-left .icon-box, .profile-form-box .inner-box-right .icon-box
+{
+  position: absolute;
+  left: -120px;
+  width: 80px;
+  top: 0px;
+  height: 80px;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: #212639;
+  font-weight: 500;
+  border-radius: 50%;
+  border: 2px dashed #dddddd;
+  box-shadow: 0 0 30px rgba(0,0,0,0.05);
+}
+.profile-form-box .inner-box-left .icon-box
+{
+  left: auto;
+  right: -120px;
+}
+.profile-form-box .admin-panel-form
+{
+  padding: 20px 0px;
+}
+.profile-form-box .admin-panel-form .form-group:last-child
+{
+  margin-bottom: 0px;
+}
+.profile-form-box:nth-child(5n + 1) .icon-box, .profile-form-box:nth-child(5n + 1) .inner-box .info-box:before 
+{
+    border-color: #40cbb4;
+}
+.profile-form-box:nth-child(5n + 2) .icon-box, .profile-form-box:nth-child(5n + 2) .inner-box .info-box:before 
+{
+    border-color: #4c35a9;
+}
+.profile-form-box:nth-child(5n + 3) .icon-box, .profile-form-box:nth-child(5n + 3) .inner-box .info-box:before 
+{
+    border-color: #e6275a;
+}
+.profile-form-box:nth-child(5n + 4) .icon-box, .profile-form-box:nth-child(5n + 4) .inner-box .info-box:before 
+{
+    border-color: #4CAF50;
+}
+.profile-form-box:nth-child(5n + 5) .icon-box, .profile-form-box:nth-child(5n + 5) .inner-box .info-box:before 
+{
+    border-color: #ffc20b;
+}
+.profile-arrow
+{
+  border-width: 10px;
+}
+.profile-arrow.left, .profile-arrow.right 
+{
+  top: 40px;
+  left: -11px;
+  margin-top: -8px;
+  border-left-width: 0;
+  border-right-color: #d9d9d9;
+}
+.profile-arrow, .profile-arrow:after 
+{
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.profile-arrow:after 
+{
+  border-width: 10px;
+  content: "";
+}
+.profile-arrow.left:after, .profile-arrow.right:after
+{
+  content: " ";
+  left: 1px;
+  border-left-width: 0;
+  border-right-color: #fff;
+  bottom: -10px;
+}
+.profile-arrow.right
+{
+  left: auto;
+  right: -11px;
+  transform: rotate(180deg);
+}
+.profile-form-box:last-child .inner-box .info-box:before
+{
+  display: none;
+}
+.profile-ill-img
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+  width: 30%;
+}
+.profile-ill-img.left
+{
+  right: auto;
+  left: 30px;
 }
