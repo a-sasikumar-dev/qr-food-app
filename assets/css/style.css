@@ -833,11 +833,10 @@ button:focus
   margin-top: 50px;
   margin-left: 90px;
   background: #f5f5f5;
-  height: 100vh;
 }
 .pages-container
 {
-  background-color: #fff;
+/*  background-color: #fff;*/
   padding: 0 10px;
   position: relative;
   min-height: 500px;
@@ -2178,6 +2177,7 @@ button:focus
   padding: 20px;
   border-radius: 5px;
   cursor: pointer;
+  background: #fff;
 }
 .add-upload-img
 {
@@ -2206,6 +2206,7 @@ button:focus
   padding: 40px 40px;
   box-shadow: 0 0 5px #9e9e9e;
   border-radius: 5px;
+  background: #fff;
 }
 .label-block
 {
@@ -2856,9 +2857,8 @@ button:focus
   text-align: center;
   position: relative;
   color: #000;
-  padding: 0px;
-  z-index: 1;
-  height: 100%;
+  padding: 20px;
+  margin-top: -70px;
 }
 .profile-pic-info input[type=file]
 {
@@ -2867,12 +2867,12 @@ button:focus
 .avatar-wrapper 
 {
   position: relative;
-  height: 100px;
-  width: 100px;
+  height: 110px;
+  width: 110px;
   border-radius: 50%;
   transition: all .3s ease;
   background: #efefef;
-  border: 2px solid #fff;
+  border: 4px solid #fff;
   margin: 0 auto;
 }
 .avatar-wrapper:hover .profile-pic {
@@ -2882,7 +2882,7 @@ button:focus
   height: 100%;
   width: 100%;
   transition: all .3s ease;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 .avatar-wrapper .upload-button {
   position: absolute;
@@ -2965,22 +2965,27 @@ button:focus
 }
 .profile-title
 {
-  display: inline-block;
-  margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  position: relative;
+  position: absolute;
+  background: #ca3d26;
+  padding: 12px 20px;
+  border-radius: 50px;
+  color: #fff;
+  top: -5px;
 }
 .profile-title:after
 {
   content: "";
   display: block;
-  width: 99%;
-  height: 2px;
-  background: var(--adminpanel-main-color);
-  bottom: -4px;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  border: 2px solid #ffff;
   position: absolute;
-  border-radius: 50%;
+  border-radius: 50px;
+  padding: 0px;
 }
 .custom-profile-col.left, .custom-profile-col.right
 {
@@ -3155,10 +3160,6 @@ button:focus
 {
   background: #CC2127;
 }
-.adress-botom-margin
-{
-  margin-bottom: 30px;
-}
 .save-button-profile
 {
   position: absolute;
@@ -3188,8 +3189,9 @@ button:focus
 /*profile page*/
 .profile-box-left
 {
-  padding-left: 0px;
-  padding-right: 0px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0px #c3c3c3;
 }
 .profile-box
 {
@@ -3204,16 +3206,17 @@ button:focus
 }
 .profile-information-box
 {
-  /*position: absolute;*/
-  width: 100%;
-  top: 50%;
-  box-shadow: 1px 0 10px #cecece, 0px 0 0px #cecece;
-  /*height: 335px;
-  overflow-x: hidden;
-  overflow-y: auto;*/
-  /*transform: translateY(-50%);*/
-  border-radius: 0 5px 5px 0;
+  border-radius: 0px 0px 10px 10px;
+}
+.profile-information-box .admin-panel-form
+{
   background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0px #c3c3c3;
+}
+.profile-information-box .tab-pane
+{
+  padding: 15px;
 }
 .bg-img-profile img
 {
@@ -3239,15 +3242,20 @@ button:focus
 }
 .profile-description
 {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 0px;
 }
-.profile-tab
+.profile-information-tab
 {
-  border-radius: 0 0 5px 5px;
-  background: var(--adminpanel-main-color);
-  z-index: 1;
-  position: relative;
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+}
+.profile-information-tab .nav-tabs .nav-item
+{
+  width: 33.33%;
+  text-align: center;
+  border-right: 1px solid #ececec; 
 }
 .profile-tab .nav-tabs .nav-link
 {
@@ -3256,12 +3264,15 @@ button:focus
   padding-bottom: 20px;
   border-radius: 0px;
   background: transparent;
-  color: #fff;
-  border-top: 3px solid transparent;
+  color: #000;
+  border-bottom: 3px solid transparent;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  font-size: 16px;
 }
 .profile-tab .nav-tabs .nav-link.active
 {
-  border-top: 3px solid #fff; 
+  border-bottom: 3px solid #ca3d26; 
   background: rgba(255, 255, 255, 0.12);
 }
 .profile-information-box::-webkit-scrollbar
@@ -3273,11 +3284,6 @@ button:focus
   background-color: #d6d6d6;
   border-radius: 50px;
 }
-.profile-information-box .admin-panel-form .form-group:last-child
-{
-  margin-bottom: 0px;
-}
-
 .profile-form-box 
 {
   position: relative;
@@ -3303,11 +3309,18 @@ button:focus
 .profile-form-box .inner-box-left .info-box, .profile-form-box .inner-box-right .info-box 
 {
   position: relative;
-  padding: 20px 30px 20px;
+  padding: 8px;
   background-color: #ffffff;
   box-shadow: 0 0 10px #cecece;
   margin-left: 80px;
-  border-radius: 5px;
+  border-radius: 20px;
+  border: 1px solid #dcdcdc;
+}
+.profile-form-box .info-border-box
+{
+  border: 3px solid #ca3d26;
+  border-radius: 20px;
+  padding: 20px;
 }
 .profile-form-box .inner-box-left .info-box:before, .profile-form-box .inner-box-right .info-box:before 
 {
@@ -3355,11 +3368,7 @@ button:focus
 }
 .profile-form-box .admin-panel-form
 {
-  padding: 20px 0px;
-}
-.profile-form-box .admin-panel-form .form-group:last-child
-{
-  margin-bottom: 0px;
+  padding: 30px 0px 0px;
 }
 .profile-form-box:nth-child(5n + 1) .icon-box, .profile-form-box:nth-child(5n + 1) .inner-box .info-box:before 
 {
@@ -3437,4 +3446,39 @@ button:focus
 {
   right: auto;
   left: 30px;
+}
+.common-button-admin.save
+{
+  background: var(--adminpanel-notify-color);
+}
+.profile-name-pro
+{
+  font-size: 18px;
+  margin-top: 15px;
+}
+.profile-bg-img
+{
+  position: relative;
+}
+.profile-bg-img img
+{
+  height: 180px;
+  object-fit: cover;
+}
+.profile-bg-img:after 
+{
+  content: "";
+  background: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px 10px 0 0;
+  opacity: 0.5;
+}
+.profile-tab .nav-tabs
+{
+  background: #fff;
+  border-radius: 10px 10px 0 0;
 }
