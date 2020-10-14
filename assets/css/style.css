@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 @font-face 
 {
   font-family: 'ZillaSlab-SemiBold';
@@ -3481,4 +3482,196 @@ button:focus
 {
   background: #fff;
   border-radius: 10px 10px 0 0;
+}
+
+/* Billing tab styles*/
+.billing-accordion .card
+{
+  display: block;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0px #c3c3c3;
+  padding: 20px;
+  overflow: visible;
+}
+.billing-accordion .card .card-header
+{
+  display: flex;
+  border: none;
+  padding-bottom: 5px;
+  background: #fff;
+  padding: 0px 5px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d4d4d4;
+}
+.billing-accordion .billinginformation-box
+{
+  width: 50%;
+  border: 15px solid #ececec;
+}
+.billing-accordion .billinginformation-box .table-border
+{
+  border-bottom: 1px solid #ececec;
+  align-items: center;
+}
+.billing-accordion .billinginformation-box .table-border:last-child
+{
+  border: none;
+}
+.billing-accordion .edit-icon-acc [aria-expanded="true"]
+{
+  display: none;
+}
+.billing-accordion .edit-icon-acc .common-tooltipbox
+{
+  margin-top: -5px;
+  cursor: pointer;
+  top: -5px;
+}
+.billing-title-name, .billing-title-information
+{
+  color: #757575;
+  margin-bottom: 0px;
+  padding: 10px 0;
+}
+.billing-title-information
+{
+  color: #212121;
+}
+.split-billing 
+{
+  color: #757575;
+  padding: 10px 0;
+  display: inline-block;
+}
+.billing-accordion .card-header h5
+{
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+}
+.billing-accordion .card-header .bill-title
+{
+  flex-grow: 1;
+}
+.billing-accordion .admin-panel-form
+{
+  box-shadow: none;
+  border: 1px solid #e8e8e8;
+}
+
+/*Pricing tab styles */
+.pricing-plan-container
+{
+  margin-top: 50px;
+}
+.pricing-plan-row
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.pricing-plan-col
+{
+  background: #fff;
+  padding: 0 15px;
+  flex: 0 0 32%;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 0 0 10px #dcdcdc;
+  border-radius: 10px;
+  position: relative;
+}
+.pricing-header
+{
+  margin-top: -40px;
+  text-align: center;
+}
+.pricing-header h4
+{
+  background: #fff;
+  margin-bottom: 0px;
+  padding: 10px 25px;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 30px 30px 0 0;
+  box-shadow: 0px -2px 7px #dcdcdc;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: 'Rajdhani', sans-serif;
+}
+.pricing-body
+{
+  padding: 20px 10px;
+}
+.pricing-image-body
+{
+  text-align: center;
+}
+.pricing-image
+{
+  display: inline-block;
+}
+.pricing-image img
+{
+  width: 50%;
+}
+.pricing-price
+{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pricing-price h3
+{
+  font-size: 36px;
+  font-weight: bold;
+  color: #4d4d4d;
+  position: relative;
+  display: inline-block;
+  font-family: 'Rajdhani', sans-serif;
+}
+.pricing-currency-symbol
+{
+  font-size: 18px;
+  position: absolute;
+  left: -15px;
+  top: 5px;
+}
+.pricing-period
+{
+  margin-bottom: 0px;
+}
+.pricing-footer
+{
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pricing-footer .subscribe-btn
+{
+  background: #fff;
+  margin-bottom: 0px;
+  padding: 5px 25px;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px #b7b7b7;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: 'Rajdhani', sans-serif;
+  border: 2px solid var(--adminpanel-main-color);
+}
+.services-list 
+{
+  padding: 0;
+}
+.services-list li 
+{
+  list-style: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  position: relative;
 }
