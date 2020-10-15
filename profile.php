@@ -288,6 +288,14 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="Plan" role="tabpanel" aria-labelledby="Plan-tab">
+                            <div class="monthyear-toggle">
+                                <label class="menu-enable-disable">
+                                    <input class="menu-enable-disable-switch" type="checkbox">
+                                    <span class="menu-enable-disable-slider"></span>
+                                    <span class="text-toggle-left">Monthly</span>
+                                    <span class="text-toggle-right">Yearly</span>
+                                </label>
+                            </div>
                             <div class="pricing-plan-container">
                                 <div class="pricing-plan-row">
                                     <div class="pricing-plan-col">
@@ -295,6 +303,9 @@
                                             <h4>Starter Menu</h4>
                                         </div>
                                         <div class="pricing-body">
+                                            <div class="price-best">
+                                                <span class="best-txt">Recomended</span>
+                                            </div>
                                             <div class="pricing-image-body">
                                                 <div class="pricing-image">
                                                     <img src="assets/images/coffee.png">
@@ -304,11 +315,28 @@
                                                 <h3><span class="pricing-currency-symbol">₹</span> 2,000</h3>
                                                 <p class="pricing-period">billed monthly</p>
                                             </div>
+                                            <div class="pricing-services">
+                                                <h4>Services</h4>
+                                            </div>
                                             <ul class="services-list">
-                                                <li>Unlimited Menus</li>
-                                                <li>Free Onboarding Session</li>
-                                                <li>Free Onboarding Session</li>
-                                                <li>Unlimited Menus</li>
+                                                <li>Unlimited Menus 
+                                                    <span class="list-tooltip">
+                                                        <i class="i-icon"></i>
+                                                    </span>
+                                                    <span class="list-tooltip-text">View on Unlimited Menus</span>
+                                                </li>
+                                                <li>24/7 Online Support</li>
+                                                <li>QR Menu
+                                                    <span class="list-tooltip">
+                                                        <i class="i-icon"></i>
+                                                    </span>
+                                                    <span class="list-tooltip-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</span>
+                                                </li>
+                                                <li>Menu Building Service</li>
+                                                <li>POS Integrations</li>
+                                                <li>Kitchen Printer Integrations</li>
+                                                <li>Upto 6 tablets</li>
+                                                <li>Upto 15 QR Codes</li>
                                             </ul>
                                         </div>
                                         <div class="pricing-footer">
@@ -320,18 +348,225 @@
                                             <h4>Silver Menu</h4>
                                         </div>
                                         <div class="pricing-body">
+                                            <!-- <div class="selected-price">Recomended</div> -->
                                             <div class="pricing-image-body">
                                                 <div class="pricing-image">
                                                     <img src="assets/images/coffee+hamburger.png">
                                                 </div>
                                             </div>
+                                            <div class="pricing-price">
+                                                <h3><span class="pricing-currency-symbol">₹</span> 3,000</h3>
+                                                <p class="pricing-period">billed monthly</p>
+                                            </div>
+                                            <div class="pricing-services">
+                                                <h4>Services</h4>
+                                            </div>
+                                            <ul class="services-list">
+                                                <li>Unlimited Menus</li>
+                                                <li>24/7 Online Support</li>
+                                                <li>QR Menu
+                                                    <span class="list-tooltip">
+                                                        <i class="i-icon"></i>
+                                                    </span>
+                                                    <span class="list-tooltip-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</span>
+                                                </li>
+                                                <li>Menu Building Service</li>
+                                                <li>POS Integrations</li>
+                                                <li>Kitchen Printer Integrations
+                                                    <span class="list-tooltip">
+                                                        <i class="i-icon"></i>
+                                                    </span>
+                                                    <span class="list-tooltip-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</span>
+                                                </li>
+                                                <li>Upto 12 tablets</li>
+                                                <li>Upto 30 QR Codes</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-footer">
+                                            <button type="button" class="subscribe-btn">Subscribe</button>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-plan-col plan-important">
+                                        <div class="pricing-header">
+                                            <h4>Gold Menu</h4>
+                                        </div>
+                                        <div class="pricing-body">
+                                            <div class="pricing-image-body">
+                                                <div class="pricing-image">
+                                                    <img src="assets/images/coffee.png">
+                                                </div>
+                                            </div>
+                                            <div class="pricing-price">
+                                                <h3><span class="pricing-currency-symbol">₹</span> 4,000</h3>
+                                                <p class="pricing-period">billed monthly</p>
+                                            </div>
+                                            <div class="pricing-services">
+                                                <h4>Services</h4>
+                                            </div>
+                                            <ul class="services-list">
+                                                <li>Unlimited Menus</li>
+                                                <li>24/7 Online Support</li>
+                                                <li>QR Menu</li>
+                                                <li>Menu Building Service</li>
+                                                <li>POS Integrations</li>
+                                                <li>Kitchen Printer Integrations
+                                                    <span class="list-tooltip">
+                                                        <i class="i-icon"></i>
+                                                    </span>
+                                                    <span class="list-tooltip-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</span>
+                                                </li>
+                                                <li>Upto 12 tablets</li>
+                                                <li>Upto 30 QR Codes</li>
+                                                <li>Menu Building Service</li>
+                                                <li>POS Integrations</li>
+                                                <li>Kitchen Printer Integrations</li>
+                                                <li>Upto 12 tablets</li>
+                                                <li>Upto 30 QR Codes</li>
+                                            </ul>
                                         </div>
                                         <div class="pricing-footer">
                                             <button type="button" class="subscribe-btn">Subscribe</button>
                                         </div>
                                     </div>
                                     <div class="pricing-plan-col">
-                                        kjsdkljfsdfj
+                                        <div class="pricing-header">
+                                            <h4>Platinum Menu</h4>
+                                        </div>
+                                        <div class="pricing-body">
+                                            <div class="selected-price">Featured</div>
+                                            <div class="pricing-image-body">
+                                                <div class="pricing-image">
+                                                    <img src="assets/images/coffee+hamburger+fries.png">
+                                                </div>
+                                            </div>
+                                            <div class="pricing-price">
+                                                <h3><span class="pricing-currency-symbol">₹</span> 5,000</h3>
+                                                <p class="pricing-period">billed monthly</p>
+                                            </div>
+                                            <div class="pricing-services">
+                                                <h4>Services</h4>
+                                            </div>
+                                            <ul class="services-list">
+                                                <li>Unlimited Menus</li>
+                                                <li>24/7 Online Support</li>
+                                                <li>QR Menu</li>
+                                                <li>Menu Building Service</li>
+                                                <li>POS Integrations</li>
+                                                <li>Kitchen Printer Integrations</li>
+                                                <li>Upto 12 tablets</li>
+                                                <li>Upto 30 QR Codes</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-footer">
+                                            <button type="button" class="subscribe-btn">Subscribe</button>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-plan-col">
+                                        <div class="pricing-header">
+                                            <h4>Gold Menu</h4>
+                                        </div>
+                                        <div class="pricing-body">
+                                            <div class="pricing-image-body">
+                                                <div class="pricing-image">
+                                                    <img src="assets/images/coffee.png">
+                                                </div>
+                                            </div>
+                                            <div class="pricing-price">
+                                                <h3><span class="pricing-currency-symbol">₹</span> 4,000</h3>
+                                                <p class="pricing-period">billed monthly</p>
+                                            </div>
+                                            <div class="pricing-services">
+                                                <h4>Services</h4>
+                                            </div>
+                                            <ul class="services-list">
+                                                <li>Unlimited Menus</li>
+                                                <li>24/7 Online Support</li>
+                                                <li>QR Menu</li>
+                                                <li>Menu Building Service</li>
+                                                <li>POS Integrations</li>
+                                                <li>Kitchen Printer Integrations</li>
+                                                <li>Upto 12 tablets</li>
+                                                <li>Upto 30 QR Codes</li>
+                                                <li>Menu Building Service</li>
+                                                <li>POS Integrations</li>
+                                                <li>Kitchen Printer Integrations</li>
+                                                <li>Upto 12 tablets</li>
+                                                <li>Upto 30 QR Codes</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-footer">
+                                            <button type="button" class="subscribe-btn">Subscribe</button>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-plan-col">
+                                        <div class="pricing-header">
+                                            <h4>Premium</h4>
+                                        </div>
+                                        <div class="pricing-body">
+                                            <div class="pricing-image-body">
+                                                <div class="pricing-image">
+                                                    <img src="assets/images/coffee+hamburger+fries.png">
+                                                </div>
+                                            </div>
+                                            <div class="pricing-price">
+                                                <h3><span class="pricing-currency-symbol">₹</span> 8,000</h3>
+                                                <p class="pricing-period">billed monthly</p>
+                                            </div>
+                                            <div class="pricing-services">
+                                                <h4>Services</h4>
+                                            </div>
+                                            <ul class="services-list">
+                                                <li>Unlimited Menus</li>
+                                                <li>24/7 Online Support</li>
+                                                <li>QR Menu</li>
+                                                <li>Menu Building Service</li>
+                                                <li>POS Integrations</li>
+                                                <li>Kitchen Printer Integrations</li>
+                                                <li>Upto 12 tablets</li>
+                                                <li>Upto 30 QR Codes</li>
+                                                <li>Menu Building Service</li>
+                                                <li>POS Integrations</li>
+                                                <li>Kitchen Printer Integrations</li>
+                                                <li>Upto 12 tablets</li>
+                                                <li>Upto 30 QR Codes</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-footer">
+                                            <button type="button" class="subscribe-btn">Subscribe</button>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-plan-col">
+                                        <div class="pricing-header">
+                                            <h4>Silver Menu</h4>
+                                        </div>
+                                        <div class="pricing-body">
+                                            <div class="selected-price">Recomended</div>
+                                            <div class="pricing-image-body">
+                                                <div class="pricing-image">
+                                                    <img src="assets/images/coffee+hamburger.png">
+                                                </div>
+                                            </div>
+                                            <div class="pricing-price">
+                                                <h3><span class="pricing-currency-symbol">₹</span> 3,000</h3>
+                                                <p class="pricing-period">billed monthly</p>
+                                            </div>
+                                            <div class="pricing-services">
+                                                <h4>Services</h4>
+                                            </div>
+                                            <ul class="services-list">
+                                                <li>Unlimited Menus</li>
+                                                <li>24/7 Online Support</li>
+                                                <li>QR Menu</li>
+                                                <li>Menu Building Service</li>
+                                                <li>POS Integrations</li>
+                                                <li>Kitchen Printer Integrations</li>
+                                                <li>Upto 12 tablets</li>
+                                                <li>Upto 30 QR Codes</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-footer">
+                                            <button type="button" class="subscribe-btn">Subscribe</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
