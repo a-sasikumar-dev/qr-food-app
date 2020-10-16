@@ -13,12 +13,12 @@
 </head>
 <body class="adminpanel_body">
 	<div class="header-admin">
-	    <header class="adminpanel_header">
-	    	<div class="navbar-expand-lg">
-	  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-	    			<span class="navbar-toggler-icon"></span>
-	  			</button>
-	  			<div class="row align-items-center">
+    	<div class="navbar-expand-lg">
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<header class="adminpanel_header">
+	  			<div class="row align-items-center nav-height">
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
 						<div class="status-view">
 							<a href="#"><i class="fas fa-cogs"></i> 
@@ -42,7 +42,7 @@
 	  					<ul class="admin-right-panel">
 		  					<li class="select-option-right language-select">
 		  						<div class="selected-lang">
-		  							<img src="assets/images/english.png"> English
+		  							<img src="assets/images/english.png"> English <i class="fa fa-angle-down"></i>
 		  						</div>
 		  						<ul class="select-language">
 		  							<li><a href="#"><img src="assets/images/english.png"> English</a></li>
@@ -53,12 +53,14 @@
 		  					</li>
 	  						<li class="select-option-right">
 		  						<div class="notification-icon">
+		  							<i class="flaticon-shopping-cart"></i>
 		  							<i class="fas fa-cart-plus"></i>
 		  							<span class="notify-number">20</span>
 		  						</div>
 		  					</li>
 		  					<li class="select-option-right">
 		  						<div class="notification-icon">
+		  							<i class="flaticon-bell"></i>
 		  							<i class="fas fa-bell"></i>
 		  							<span class="notify-number">10</span>
 		  						</div>
@@ -77,8 +79,8 @@
 						</ul>
 	  				</div>	
 	  			</div>
-	  		</div>
-	  	</header>
+	  		</header>
+  		</div>
 	</div>
   	<div class="admin-sidebar">
   		<div class="admin-logo">
@@ -86,89 +88,61 @@
 		</div>
 		<div class="navbar-collapse" id="navbarText">
 			<ul class="sidebar-menu">
-				<li><a class="nav-link" href="dashboard.php"><i class="fas fa-tachometer-alt"></i>
-					<div class="admin-tooltip">
-						<span class="tool-text">Dashboard</span>
-					</div></a>
+				<li>
+					<a class="nav-link" href="dashboard.php"><i class="fas fa-home"></i>
+					<div class="admin-tooltip">Dashboard</div></a>
 				</li>
-				<li><a class="nav-link" href="menu.php"><i class="fas fa-bars"></i>
-					<div class="admin-tooltip">
-						<span class="tool-text">Menu</span>
-					</div></a>
+				<li>
+					<a class="nav-link" href="menu.php"><i class="fas fa-bars"></i>
+					<div class="admin-tooltip">Menu</div></a>
 				</li>
-				<li><a class="nav-link" href="#"><i class="fas fa-tablet-alt"></i>
-					<div class="admin-tooltip">
-						<span class="tool-text">Tablet</span>
-					</div></a>
+				<li>
+					<a class="nav-link" href="#"><i class="fas fa-tablet-alt"></i>
+					<div class="admin-tooltip">Tablet</div></a>
 				</li>
-				<li class="admin-submenu-li"><a class="nav-link"><i class="fas fa-qrcode"></i>
-					<div class="admin-tooltip">
-						<span class="tool-text">QR Menu</span>
-					</div></a>
-					<ul class='admin-submenus'>
+				<li class="admin-submenu-li">
+					<a class="nav-link" href="qr-generator.php"><i class="fas fa-qrcode"></i>
+					<div class="admin-tooltip">QR Menu</div></a>
+					<!-- <ul class='admin-submenus'>
 						<li><a class="nav-link" href="qr-generator.php"><i class="fas fa-tachometer-alt"></i>
-							<div class="admin-tooltip">
-								<span class="tool-text">QR Generator</span>
-							</div></a>
+							<div class="admin-tooltip">QR Generator</div></a>
 						</li>
 						<li><a class="nav-link" href="#"><i class="fas fa-book"></i>
-							<div class="admin-tooltip">
-								<span class="tool-text">Feedbacks</span>
-							</div></a>
+							<div class="admin-tooltip">Feedbacks</div></a>
 						</li>
 						<li><a class="nav-link" href="#"><i class="fas fa-bullhorn"></i>
-							<div class="admin-tooltip">
-								<span class="tool-text">Campaigns</span>
-							</div></a>
+							<div class="admin-tooltip">Campaigns</div></a>
 						</li>
-					</ul>
+					</ul> -->
 				</li>
 				<li class="admin-submenu-li"><a class="nav-link"><i class="fas fa-globe"></i>
-					<div class="admin-tooltip">
-						<span class="tool-text">Online Menu</span>
-					</div></a>
-					<ul class='admin-submenus'>
+					<div class="admin-tooltip">Online Menu</div></a>
+					<!-- <ul class='admin-submenus'>
 						<li><a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i>
-							<div class="admin-tooltip">
-								<span class="tool-text">Dashboard</span>
-							</div></a>
+							<div class="admin-tooltip">Dashboard</div></a>
 						</li>
 						<li><a class="nav-link" href="#"><i class="fas fa-book"></i>
-							<div class="admin-tooltip">
-								<span class="tool-text">Feedbacks</span>
-							</div></a>
+							<div class="admin-tooltip">Feedbacks</div></a>
 						</li>
 						<li><a class="nav-link" href="#"><i class="fas fa-bullhorn"></i>
-							<div class="admin-tooltip">
-								<span class="tool-text">Campaigns</span>
-							</div></a>
+							<div class="admin-tooltip">Campaigns</div></a>
 						</li>
-					</ul>
+					</ul> -->
 				</li>
 				<li><a class="nav-link" href="#"><i class="fas fa-cart-plus"></i>
-					<div class="admin-tooltip">
-						<span class="tool-text">Orders</span>
-					</div></a>
+					<div class="admin-tooltip">Orders</div></a>
 				</li>
 				<li><a class="nav-link" href="#"><i class="fas fa-book"></i>
-					<div class="admin-tooltip">
-						<span class="tool-text">Feedbacks</span>
-					</div></a>
+					<div class="admin-tooltip">Feedbacks</div></a>
 				</li>
 				<li><a class="nav-link" href="#"><i class="fas fa-bullhorn"></i>
-					<div class="admin-tooltip">
-						<span class="tool-text">Campaigns</span>
-					</div></a>
+					<div class="admin-tooltip">Campaigns</div></a>
 				</li>
 				<li><a class="nav-link" href="#"><i class="fas fa-cogs"></i>
-					<div class="admin-tooltip">
-						<span class="tool-text">Settings</span>
-					</div></a>
+					<div class="admin-tooltip">Settings</div></a>
 				</li>
 				<li><a class="nav-link" href="#"><i class="fas fa-mobile-alt"></i>
-					<div class="admin-tooltip">
-						<span class="tool-text">App Config</span>
-					</div></a>
+					<div class="admin-tooltip">App Config</div></a>
 				</li>
 				<li><a class="nav-link" href="#"><i class="fas fa-home"></i></a></li>
 				<li><a class="nav-link" href="#"><i class="fas fa-home"></i></a></li>

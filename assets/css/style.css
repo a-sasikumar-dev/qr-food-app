@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
 @font-face 
 {
   font-family: 'ZillaSlab-SemiBold';
@@ -29,7 +29,7 @@
   --adminpanel-active-color: #000;
   --adminpanel-tooltip-color: #000;
   --adminpanel-notify-color: #00ab4c;
-  --adminpanel-hover-color: #6a005c;
+  --adminpanel-hover-color: #ca3d26;
   --adminpanel-icon-color: #ca3d26;
 }
 img
@@ -43,6 +43,10 @@ body
   overflow-y: auto;
   height: 100vh;
   font-family: 'AvenirNextLTPro-Regular';
+}
+a, h1, h2, h3, h4, h5, h6, p
+{
+  color: #3e3f5e;
 }
 body p
 {
@@ -112,8 +116,8 @@ button:focus
 .admin-login-reg_tabs
 {
 	border: none;
-    justify-content: center;
-    margin: 30px 0 50px;
+  justify-content: center;
+  margin: 30px 0 50px;
 }
 .admin-login-reg_tabs .nav-item
 {
@@ -314,16 +318,20 @@ button:focus
 }
 .adminpanel_header
 {
-	padding: 0px 25px;
+/*	padding: 0px 25px;*/
   background: #ffffff;
-  box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+  box-shadow: 5px 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.nav-height
+{
+  height: 70px;
 }
 .admin-logo
 {
-  height: 50px;
+  height: 70px;
   padding: 10px 0;
-  background: #ffffff;
   text-align: center;
+  line-height: 40px;
 }
 .admin-logo img
 {
@@ -359,6 +367,11 @@ button:focus
   padding: 10px 10px;
   vertical-align: middle;
 }
+.selected-lang i
+{
+  padding-left: 3px;
+  vertical-align: text-bottom;
+}
 .admin-right-panel .select-option-right:hover
 {
   background: #eff1f5;
@@ -371,6 +384,10 @@ button:focus
   height: 50px;
   margin-top: 0;
   padding-top: 12px !important;
+  background: #eaeaea;
+  border-radius: 5px;
+  line-height: 25px;
+  transition: 0.2s all linear;
 }
 .select-language li
 {
@@ -389,7 +406,7 @@ button:focus
 .select-language
 {
   position: absolute;
-  left: -40px;
+  right: 0;
   top: 51px;
   width: auto;
   min-width: 140px;
@@ -488,8 +505,8 @@ button:focus
 	width: 30px;
   border-radius: 50px;
   height: 30px;
-  border: 2px solid #fff;
-  box-shadow: 0 0 5px 0 #bbb;
+  /*border: 2px solid #fff;
+  box-shadow: 0 0 5px 0 #bbb;*/
 }
 .admin-profile
 {
@@ -502,25 +519,25 @@ button:focus
 }
 .admin-profile .dropdown 
 {
-    display: block;
-    position: absolute;
-    width: auto;
-    min-width: 140px;
-    max-height: none;
-    background-color: #fff;
-    border-radius: 3px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
-    white-space: nowrap;
-    display: none;
-    left: -30px;
-    top: 51px;
-    text-align: left;
-    transition: .2s ease-in;
-    /*opacity: 0;
-    -ms-transform: translateX(-50%) translateY(-10px);
-    transform: translateX(-50%) translateY(-10px);
-    transition: transform .2s ease,opacity .2s ease;
-    text-align: left;*/
+  display: block;
+  position: absolute;
+  width: auto;
+  min-width: 140px;
+  max-height: none;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+  white-space: nowrap;
+  display: none;
+  right: 5px;
+  top: 51px;
+  text-align: left;
+  transition: .2s ease-in;
+  /*opacity: 0;
+  -ms-transform: translateX(-50%) translateY(-10px);
+  transform: translateX(-50%) translateY(-10px);
+  transition: transform .2s ease,opacity .2s ease;
+  text-align: left;*/
 }
 .admin-profile:hover .dropdown
 {
@@ -597,22 +614,22 @@ button:focus
 }
 .admin-profile .dropdown li a i
 {
-    color: var(--adminpanel-icon-color);
-    margin-right: 5px;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    border-radius: 50px;
-    border: 2px solid;
-    line-height: 22px;
-    font-size: 12px;
+  color: var(--adminpanel-icon-color);
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50px;
+  border: 2px solid;
+  line-height: 22px;
+  font-size: 12px;
 }
 .status-view .header-tooltip, .action-icons .header-tooltip, .admin-common-tooltip
 {
   display: none;
   position: absolute;
   top: 45px;
-  background: #000;
+  background: #3e3f5e;
   left: 50%;
   padding: 5px 8px;
   border-radius: 4px;
@@ -654,7 +671,7 @@ button:focus
   content: "";
   display: inline-block;
   border-top: 7px solid transparent;
-  border-right: 7px solid #000;
+  border-right: 7px solid #3e3f5e;
   border-bottom: 7px solid transparent;
   transform: rotate(90deg);
 }
@@ -683,6 +700,8 @@ button:focus
   height: 30px;
   line-height: 30px;
   text-align: center;
+  display: inline-block;
+  color: #797979;
 }
 .status-view a:hover
 {
@@ -690,7 +709,7 @@ button:focus
 }
 .status-view a:hover i 
 {
-  background: #000;
+  background: #23d2e2;
   border-radius: 10px;
   color: #fff;
 }
@@ -703,8 +722,9 @@ button:focus
 	position: fixed;
   height: 100%;
   background: #fff;
-  z-index: 999;
-  border-right: 1px solid #e5e6e6;
+  z-index: 99;
+  /*box-shadow: 0 0 40px 0 rgba(94,92,154,.06);*/
+  box-shadow: 2px 0px 10px 0 rgba(0, 0, 0, 0.12);
 }
 /*.admin-sidebar
 {
@@ -747,58 +767,66 @@ button:focus
 }
 .sidebar-menu li .nav-link i
 {
-  width: 40px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   display: inline-block;
   text-align: center;
-  line-height: 35px;
-  color: var(--adminpanel-icon-color);
-  box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.11);
+  line-height: 45px;
+  color: #9f99ce;
+  /*box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.11);*/
   border-radius: 10px;
   background: #fff;
+  transition: 0.2s all linear;
 }
-.sidebar-menu li .nav-link:hover i, .sidebar-menu li .nav-link.active i
+.sidebar-menu li .nav-link.active i, .sidebar-menu li .nav-link.active:hover i
 {
 	border-radius: 10px;
-	background: var(--adminpanel-active-color);
+	background: #23d2e2;
 	color: #fff;
+  box-shadow: 4px 7px 12px 0 rgba(35,210,226,.2);
+}
+.sidebar-menu li .nav-link:hover i
+{
+  color: #23d2e2;
+  background-color: #fff;
+  box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.11);
 }
 .sidebar-menu li .admin-tooltip
 {
-    position: absolute;
-    top: 5px;
-    background: #000;
-    left: 50px;
-    padding: 3px 5px;
-    border-radius: 4px;
-    font-size: 12px;
-    min-width: 14px;
-    color: #fff;
-    display: none;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
-    pointer-events: none;
-    transition: opacity .2s,transform .2s,-webkit-transform .2s;
-    white-space: nowrap;
+  position: absolute;
+  top: 10px;
+  background: #3e3f5e;
+  left: 50px;
+  padding: 3px 12px;
+  border-radius: 50px;
+  display: none;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+  font-size: 12px;
+  color: #fff;
+  font-weight: 700;
+  white-space: nowrap;
+  font-family: 'Rajdhani', sans-serif;
+  z-index: 9999;
+  letter-spacing: 1px;
 }
 .sidebar-menu li .nav-link:hover .admin-tooltip
 {
-    display: block;
-    animation: sidebar-tooltiptransform 200ms linear;
+  display: block;
+  animation: sidebar-tooltiptransform 0.3s ease-in-out 0s;
 } 
 @keyframes sidebar-tooltiptransform
 {
   from
   {
-    transform: translateX(-10px) scale(0.7);
-    -webkit-transform: translateX(-10px) scale(0.7);
+    transform: translate(10px, 0px);
+    -webkit-transform: translate(10px, 0px);
    }
   to
   {
-    transform: translateX(0px) scale(1);
-    -webkit-transform: translateX(0px) scale(1);
+    left: 50px;
   } 
 }
-.sidebar-menu li .nav-link .admin-tooltip:before 
+/*.sidebar-menu li .nav-link .admin-tooltip:before 
 {
     position: absolute;
     top: 50%;
@@ -809,13 +837,7 @@ button:focus
     border-top: 3px solid transparent;
     border-right: 3px solid #000;
     border-bottom: 3px solid transparent;
-}
-.sidebar-menu li .nav-link .admin-tooltip .tool-text 
-{
-    display: block;
-    min-width: 14px;
-    width: 100%;
-}
+}*/
 .sidebar-menu .admin-submenu-li .admin-submenus
 {
 	margin-top: 15px;
@@ -831,7 +853,7 @@ button:focus
 .main-container-body
 {
   padding: 10px 15px;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-left: 90px;
   background: #f5f5f5;
 }
@@ -1111,8 +1133,8 @@ button:focus
 /* Admin breadcrumb styles */
 .admin-breadcrumb
 {
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
-  background-color: transparent;
+/*  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);*/
+  background-color: #fff;
 }
 .admin-breadcrumb .breadcrumb-item
 {
@@ -1598,6 +1620,7 @@ button:focus
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.5px;
+  color: #fff;
 }
 .popover-category
 {
@@ -3582,11 +3605,11 @@ button:focus
   box-shadow: 0 0 10px #dcdcdc;
   border-radius: 10px;
   position: relative;
-  transition: 0.3s all linear;
+  transition: 0.2s all linear;
 }
 .pricing-plan-col:hover 
 {
-  transform: scale(1.01);
+  transform: scale(1.005);
 }
 .pricing-header
 {
@@ -3981,4 +4004,140 @@ button:focus
   border-bottom-width: 5px;
   border-bottom-color: #47b2cc;
   border-left-color: #47b2cc;
+}
+
+.ribbon {
+  position: relative;
+  color: #fff;
+  display: block;
+  width: 80%;
+  margin: -10px auto 0;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+  z-index: 3;
+}
+.ribbon:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 12px 12px 0;
+  border-color: transparent #4e0b00 transparent transparent;
+  left: -1px;
+  bottom: -10px;
+  z-index: 1;
+}
+.ribbon:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 12px 0 0;
+  border-color: #4e0b00 transparent transparent transparent;
+  right: -1px;
+  bottom: -10px;
+  z-index: 1;
+}
+.ribbon .left-fold {
+  background-color: #005188;
+  background-image: -webkit-linear-gradient(-90deg,#821200, #ca3d26);
+  background-image: linear-gradient(-90deg,#821200, #ca3d26);
+  position: absolute;
+  height: 45px;
+  width: 25px;
+  left: -15px;
+  bottom: -10px;
+  display: block;
+  margin: 0;
+  border-right: 1px solid var(--adminpanel-main-color);
+}
+.ribbon .left-fold:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 15px 25px 0;
+  border-color: transparent var(--adminpanel-main-color) transparent transparent;
+  left: -14px;
+  top: 0;
+}
+.ribbon .left-fold:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 25px 15px;
+  border-color: transparent transparent var(--adminpanel-main-color) transparent;
+  left: -14px;
+  bottom: 0;
+}
+.ribbon p {
+  z-index: 2;
+  position: relative;
+  background: var(--adminpanel-main-color);
+  width: 100%;
+  display: block;
+  padding: 10px 0;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+  color: #791100;
+  text-shadow: #fd7777 0 1px 0;
+  font-size: 16px;
+}
+.ribbon p:before, .ribbon p:after
+{
+    content: "";
+    position: absolute;
+    left: 5px;
+    right: 5px;
+}
+.ribbon p:before
+{
+  top: 3px;
+  border-top: 1px dashed #d8d8d8;
+}
+.ribbon p:after
+{
+  bottom: 3px;
+  border-bottom: 1px dashed #d8d8d8;
+}
+.ribbon .right-fold {
+  background-color: #005188;
+  background-image: -webkit-linear-gradient(-90deg,#ca3d26, #821200);
+  background-image: linear-gradient(-90deg,#ca3d26, #821200);
+  position: absolute;
+  height: 45px;
+  width: 25px;
+  right: -15px;
+  bottom: -10px;
+  display: block;
+  margin: 0;
+  border-left: 1px solid var(--adminpanel-main-color);
+}
+.ribbon .right-fold:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 15px 0 0;
+  border-color: var(--adminpanel-main-color) transparent transparent transparent;
+  right: -14px;
+  top: 0;
+}
+.ribbon .right-fold:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 0 15px;
+  border-color: transparent transparent transparent var(--adminpanel-main-color);
+  right: -14px;
+  bottom: 0;
 }

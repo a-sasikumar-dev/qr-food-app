@@ -303,9 +303,14 @@
                                             <h4>Starter Menu</h4>
                                         </div>
                                         <div class="pricing-body">
-                                            <div class="price-best">
-                                                <span class="best-txt">Recomended</span>
+                                            <div class="ribbon">
+                                                <span class="left-fold"></span>
+                                                <p>Recommended</p>
+                                                <span class="right-fold"></span>
                                             </div>
+                                            <!-- <div class="price-best">
+                                                <span class="best-txt">Recomended</span>
+                                            </div> -->
                                             <div class="pricing-image-body">
                                                 <div class="pricing-image">
                                                     <img src="assets/images/coffee.png">
@@ -433,7 +438,12 @@
                                             <h4>Platinum Menu</h4>
                                         </div>
                                         <div class="pricing-body">
-                                            <div class="selected-price">Featured</div>
+                                            <!-- <div class="selected-price">Featured</div> -->
+                                            <div class="ribbon">
+                                                <span class="left-fold"></span>
+                                                <p>Featured</p>
+                                                <span class="right-fold"></span>
+                                            </div>
                                             <div class="pricing-image-body">
                                                 <div class="pricing-image">
                                                     <img src="assets/images/coffee+hamburger+fries.png">
@@ -540,7 +550,7 @@
                                             <h4>Silver Menu</h4>
                                         </div>
                                         <div class="pricing-body">
-                                            <div class="selected-price">Recomended</div>
+                                            <!-- <div class="selected-price">Recomended</div> -->
                                             <div class="pricing-image-body">
                                                 <div class="pricing-image">
                                                     <img src="assets/images/coffee+hamburger.png">
