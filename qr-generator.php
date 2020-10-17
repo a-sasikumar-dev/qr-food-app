@@ -42,7 +42,7 @@
                     <ul class="admin-qrgenerator-tab nav" id="admin-qrgenerator-tab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast-content" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                            <span class="font-weight-bold">Basic</span>
+                            <span class="">Basic</span>
                             </a>
                             <div class="status-view category-edit-icons">
                                 <a href="#"><i class="fas fa-edit"></i> 
@@ -59,7 +59,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch-content" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                            <span class="font-weight-bold">Standard</span>
+                            <span class="">Standard</span>
                             </a>
                             <div class="status-view category-edit-icons">
                                 <a href="#"><i class="fas fa-edit"></i> 
@@ -76,7 +76,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner-content" role="tab" aria-controls="v-pills-messages" aria-selected="false">
-                            <span class="font-weight-bold">Ultra</span>
+                            <span class="">Ultra</span>
                             </a>
                             <div class="status-view category-edit-icons">
                                 <a href="#"><i class="fas fa-edit"></i> 
@@ -188,29 +188,18 @@
                                         </div>
                                         <p class="info-text"><a href="#">https://qrapp-twin/url/b09cfb6bd2ce48e2b71a7ba0</a></p>
                                     </div>
-                                    <!-- <div class="scanned-items">
-                                        <span class="scanned-text">Scanned</span>
-                                            <span class="scanned-number">2</span>
-                                        </span>
-                                    </div> -->
-                                    <div class="qr-scan-icon-side">
-                                        <div class="icons-qr-scan">
-                                            <a href="#" class="action-icons-scan">
-                                                <div class="common-tooltipbox"><i class="fa fa-edit"></i>
-                                                    <div class="admin-common-tooltip">
-                                                        <span class="tool-text">Edit</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="action-icons-scan">
-                                                <div class="common-tooltipbox"><i class="fa fa-trash"></i>
-                                                    <div class="admin-common-tooltip">
-                                                        <span class="tool-text">Delete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
+                                    <ul class="sidebar-menu category-action-btns">
+                                        <li><a class="nav-link" href="#"><i class="fas fa-edit"></i>
+                                            <div class="admin-tooltip">
+                                                <span class="tool-text">Edit</span>
+                                            </div></a>
+                                        </li>
+                                        <li><a class="nav-link" href="#"><i class="fas fa-trash"></i>
+                                            <div class="admin-tooltip">
+                                                <span class="tool-text">Delete</span>
+                                            </div></a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="qr-scan-box-container">
@@ -243,29 +232,18 @@
                                         </div>
                                         <p class="info-text"><a href="#">https://qrapp-twin/url/b09cfb6bd2ce48e2b71a7ba0</a></p>
                                     </div>
-                                    <!-- <div class="scanned-items">
-                                        <span class="scanned-text">Scanned</span>
-                                            <span class="scanned-number">2</span>
-                                        </span>
-                                    </div> -->
-                                    <div class="qr-scan-icon-side">
-                                        <div class="icons-qr-scan">
-                                            <a href="#" class="action-icons-scan">
-                                                <div class="common-tooltipbox"><i class="fa fa-edit"></i>
-                                                    <div class="admin-common-tooltip">
-                                                        <span class="tool-text">Edit</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="action-icons-scan">
-                                                <div class="common-tooltipbox"><i class="fa fa-trash"></i>
-                                                    <div class="admin-common-tooltip">
-                                                        <span class="tool-text">Delete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
+                                    <ul class="sidebar-menu category-action-btns">
+                                        <li><a class="nav-link" href="#"><i class="fas fa-edit"></i>
+                                            <div class="admin-tooltip">
+                                                <span class="tool-text">Edit</span>
+                                            </div></a>
+                                        </li>
+                                        <li><a class="nav-link" href="#"><i class="fas fa-trash"></i>
+                                            <div class="admin-tooltip">
+                                                <span class="tool-text">Delete</span>
+                                            </div></a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="qr-scan-box-container">
@@ -298,29 +276,18 @@
                                         </div>
                                         <p class="info-text"><a href="#">https://qrapp-twin/url/b09cfb6bd2ce48e2b71a7ba0</a></p>
                                     </div>
-                                    <!-- <div class="scanned-items">
-                                        <span class="scanned-text">Scanned</span>
-                                            <span class="scanned-number">2</span>
-                                        </span>
-                                    </div> -->
-                                    <div class="qr-scan-icon-side">
-                                        <div class="icons-qr-scan">
-                                            <a href="#" class="action-icons-scan">
-                                                <div class="common-tooltipbox"><i class="fa fa-edit"></i>
-                                                    <div class="admin-common-tooltip">
-                                                        <span class="tool-text">Edit</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="action-icons-scan">
-                                                <div class="common-tooltipbox"><i class="fa fa-trash"></i>
-                                                    <div class="admin-common-tooltip">
-                                                        <span class="tool-text">Delete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
+                                    <ul class="sidebar-menu category-action-btns">
+                                        <li><a class="nav-link" href="#"><i class="fas fa-edit"></i>
+                                            <div class="admin-tooltip">
+                                                <span class="tool-text">Edit</span>
+                                            </div></a>
+                                        </li>
+                                        <li><a class="nav-link" href="#"><i class="fas fa-trash"></i>
+                                            <div class="admin-tooltip">
+                                                <span class="tool-text">Delete</span>
+                                            </div></a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="qr-scan-box-container">
@@ -353,29 +320,18 @@
                                         </div>
                                         <p class="info-text"><a href="#">https://qrapp-twin/url/b09cfb6bd2ce48e2b71a7ba0</a></p>
                                     </div>
-                                    <!-- <div class="scanned-items">
-                                        <span class="scanned-text">Scanned</span>
-                                            <span class="scanned-number">2</span>
-                                        </span>
-                                    </div> -->
-                                    <div class="qr-scan-icon-side">
-                                        <div class="icons-qr-scan">
-                                            <a href="#" class="action-icons-scan">
-                                                <div class="common-tooltipbox"><i class="fa fa-edit"></i>
-                                                    <div class="admin-common-tooltip">
-                                                        <span class="tool-text">Edit</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="action-icons-scan">
-                                                <div class="common-tooltipbox"><i class="fa fa-trash"></i>
-                                                    <div class="admin-common-tooltip">
-                                                        <span class="tool-text">Delete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
+                                    <ul class="sidebar-menu category-action-btns">
+                                        <li><a class="nav-link" href="#"><i class="fas fa-edit"></i>
+                                            <div class="admin-tooltip">
+                                                <span class="tool-text">Edit</span>
+                                            </div></a>
+                                        </li>
+                                        <li><a class="nav-link" href="#"><i class="fas fa-trash"></i>
+                                            <div class="admin-tooltip">
+                                                <span class="tool-text">Delete</span>
+                                            </div></a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="qr-scan-box-container">
@@ -408,29 +364,18 @@
                                         </div>
                                         <p class="info-text"><a href="#">https://qrapp-twin/url/b09cfb6bd2ce48e2b71a7ba0</a></p>
                                     </div>
-                                    <!-- <div class="scanned-items">
-                                        <span class="scanned-text">Scanned</span>
-                                            <span class="scanned-number">2</span>
-                                        </span>
-                                    </div> -->
-                                    <div class="qr-scan-icon-side">
-                                        <div class="icons-qr-scan">
-                                            <a href="#" class="action-icons-scan">
-                                                <div class="common-tooltipbox"><i class="fa fa-edit"></i>
-                                                    <div class="admin-common-tooltip">
-                                                        <span class="tool-text">Edit</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="action-icons-scan">
-                                                <div class="common-tooltipbox"><i class="fa fa-trash"></i>
-                                                    <div class="admin-common-tooltip">
-                                                        <span class="tool-text">Delete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
+                                    <ul class="sidebar-menu category-action-btns">
+                                        <li><a class="nav-link" href="#"><i class="fas fa-edit"></i>
+                                            <div class="admin-tooltip">
+                                                <span class="tool-text">Edit</span>
+                                            </div></a>
+                                        </li>
+                                        <li><a class="nav-link" href="#"><i class="fas fa-trash"></i>
+                                            <div class="admin-tooltip">
+                                                <span class="tool-text">Delete</span>
+                                            </div></a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="qr-scan-box-container">
@@ -463,36 +408,24 @@
                                         </div>
                                         <p class="info-text"><a href="#">https://qrapp-twin/url/b09cfb6bd2ce48e2b71a7ba0</a></p>
                                     </div>
-                                    <!-- <div class="scanned-items">
-                                        <span class="scanned-text">Scanned</span>
-                                            <span class="scanned-number">2</span>
-                                        </span>
-                                    </div> -->
-                                    <div class="qr-scan-icon-side">
-                                        <div class="icons-qr-scan">
-                                            <a href="#" class="action-icons-scan">
-                                                <div class="common-tooltipbox"><i class="fa fa-edit"></i>
-                                                    <div class="admin-common-tooltip">
-                                                        <span class="tool-text">Edit</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="action-icons-scan">
-                                                <div class="common-tooltipbox"><i class="fa fa-trash"></i>
-                                                    <div class="admin-common-tooltip">
-                                                        <span class="tool-text">Delete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
+                                    <ul class="sidebar-menu category-action-btns">
+                                        <li><a class="nav-link" href="#"><i class="fas fa-edit"></i>
+                                            <div class="admin-tooltip">
+                                                <span class="tool-text">Edit</span>
+                                            </div></a>
+                                        </li>
+                                        <li><a class="nav-link" href="#"><i class="fas fa-trash"></i>
+                                            <div class="admin-tooltip">
+                                                <span class="tool-text">Delete</span>
+                                            </div></a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="lunch-content" role="tabpanel" aria-labelledby="lunch-tab">
                             
                         </div>
-                        
                         <div class="tab-pane fade" id="dinner-content" role="tabpanel" aria-labelledby="dinner-tab">
                             <h4 class="font-italic mb-4">Reviews</h4>
                             <p class="font-italic text-muted mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

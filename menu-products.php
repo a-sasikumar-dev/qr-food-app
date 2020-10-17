@@ -49,7 +49,7 @@
                     <ul class="adminpanel-addproduct-tab nav" id="product-category-tab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast-content" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                            <span class="font-weight-bold">Breakfast</span>
+                            <span class="">Breakfast</span>
                             </a>
                             <div class="status-view category-edit-icons">
                                 <a href="#"><i class="fas fa-edit"></i> 
@@ -66,7 +66,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch-content" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                            <span class="font-weight-bold">Lunch</span>
+                            <span class="">Lunch</span>
                             </a>
                             <div class="status-view category-edit-icons">
                                 <a href="#"><i class="fas fa-edit"></i> 
@@ -83,7 +83,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner-content" role="tab" aria-controls="v-pills-messages" aria-selected="false">
-                            <span class="font-weight-bold">Dinner</span>
+                            <span class="">Dinner</span>
                             </a>
                             <div class="status-view category-edit-icons">
                                 <a href="#"><i class="fas fa-edit"></i> 
@@ -187,7 +187,7 @@
                                                     <span class="menu-enable-disable-slider"></span>
                                                 </label>
                                                 <div class="category-i-info">
-                                                    <span><i class="fas fa-info"></i>
+                                                    <span class="i-hover"><i class="i-icon"></i>
                                                         <div class="category-i-tooltip">View status
                                                             <div class="arrow"></div>
                                                         </div>
@@ -200,7 +200,7 @@
                                                     <span class="menu-enable-disable-slider"></span>
                                                 </label>
                                                 <div class="category-i-info">
-                                                    <span><i class="fas fa-info"></i>
+                                                    <span class="i-hover"><i class="i-icon"></i>
                                                         <div class="category-i-tooltip">View on Home page Banner
                                                             <div class="arrow"></div>
                                                         </div>
@@ -249,7 +249,7 @@
                                                     <span class="menu-enable-disable-slider"></span>
                                                 </label>
                                                 <div class="category-i-info">
-                                                    <span><i class="fas fa-info"></i>
+                                                    <span class="i-hover"><i class="i-icon"></i>
                                                         <div class="category-i-tooltip">View status
                                                             <div class="arrow"></div>
                                                         </div>
@@ -262,7 +262,7 @@
                                                     <span class="menu-enable-disable-slider"></span>
                                                 </label>
                                                 <div class="category-i-info">
-                                                    <span><i class="fas fa-info"></i>
+                                                    <span class="i-hover"><i class="i-icon"></i>
                                                         <div class="category-i-tooltip">View on Home page Banner
                                                             <div class="arrow"></div>
                                                         </div>
@@ -311,7 +311,7 @@
                                                     <span class="menu-enable-disable-slider"></span>
                                                 </label>
                                                 <div class="category-i-info">
-                                                    <span><i class="fas fa-info"></i>
+                                                    <span class="i-hover"><i class="i-icon"></i>
                                                         <div class="category-i-tooltip">View status
                                                             <div class="arrow"></div>
                                                         </div>
@@ -324,7 +324,7 @@
                                                     <span class="menu-enable-disable-slider"></span>
                                                 </label>
                                                 <div class="category-i-info">
-                                                    <span><i class="fas fa-info"></i>
+                                                    <span class="i-hover"><i class="i-icon"></i>
                                                         <div class="category-i-tooltip">View on Home page Banner
                                                             <div class="arrow"></div>
                                                         </div>
