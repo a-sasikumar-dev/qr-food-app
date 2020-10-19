@@ -37,7 +37,7 @@
                                                 <label for="inactive">In Active</label>
                                             </div>
                                             <div class="buttons-adminform">
-                                                <button class="common-button-admin" type="button" data-toggle="collapse" href="#categoryAdd" role="button" aria-expanded="false" aria-controls="collapseExample">Cancel</button>
+                                                <button class="common-button-admin cancel" type="button" data-toggle="collapse" href="#categoryAdd" role="button" aria-expanded="false" aria-controls="collapseExample">Cancel</button>
                                                 <button class="common-button-admin" type="submit">Save</button>
                                             </div>
                                         </form>

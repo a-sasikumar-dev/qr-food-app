@@ -277,8 +277,8 @@
                                                         </div>
                                                     </div>
                                                     <div class="text-center">
-                                                        <button class="common-button-admin save" type="submit">Save</button>
-                                                        <button class="common-button-admin" type="button" data-toggle="collapse" data-parent="#accordionBilling" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1" role="tab" id="headingOne1">Cancel</button>
+                                                        <button class="common-button-admin" type="submit">Save</button>
+                                                        <button class="common-button-admin cancel" type="button" data-toggle="collapse" data-parent="#accordionBilling" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1" role="tab" id="headingOne1">Cancel</button>
                                                     </div>
                                                 </div>
                                             </form> 

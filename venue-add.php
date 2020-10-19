@@ -65,20 +65,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-xl-6">
-                                <div class="form-group">
-                                    <select class="form-control selectpicker bfh-currencies" data-currency="INR" data-hide-disabled="true"></select>
-                                    <label class="adminpanel-formlabel">Currency code</label>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="form-group">
-                                    <select class="form-control selectpicker bfh-timezones" data-country="IN"></select>
-                                    <label class="adminpanel-formlabel">Time Zone</label>
-                                </div>
-                            </div>
-                        </div>
                         <div class="text-center">
                             <button class="common-button-admin save" type="submit">Save</button>
                         </div>
@@ -145,17 +131,73 @@
                 <h4 class="venue-head">App Config</h4>
                 <div class="admin-panel-form ">
                     <form>
-                        <div class="config-title">
-                            <h5>Order</h5>
-                        </div>
                         <div class="form-group">
-                            <div class="row">
-                                <div class="col-xl-6">
-                                    <div class="row">
-                                        <div class="col-xl-10">
-                                            <div class="config-item-txt">Order Enabled</div>
+                            <div class="row app-config-row">
+                                <div class="col-xl-6 app-config-col">
+                                    <div class="config-title">
+                                        <h5>Information</h5>
+                                    </div>
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-8">
+                                            <div class="config-item-txt">Display Info Button</div>
                                         </div>
-                                        <div class="col-xl-2 text-right">
+                                        <div class="col-xl-4 text-right toggle-spacing">
+                                            <label class="menu-enable-disable">
+                                                <input class="menu-enable-disable-switch" type="checkbox">
+                                                <span class="menu-enable-disable-slider"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="config-title">
+                                        <h5>Feedback</h5>
+                                    </div>
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-8">
+                                            <div class="config-item-txt">Display Feedback Button</div>
+                                        </div>
+                                        <div class="col-xl-4 text-right toggle-spacing">
+                                            <label class="menu-enable-disable">
+                                                <input class="menu-enable-disable-switch" type="checkbox">
+                                                <span class="menu-enable-disable-slider"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="config-title">
+                                        <h5>Icon Labels</h5>
+                                    </div>
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-8">
+                                            <div class="config-item-txt">Display Icon Labels</div>
+                                        </div>
+                                        <div class="col-xl-4 text-right toggle-spacing">
+                                            <label class="menu-enable-disable">
+                                                <input class="menu-enable-disable-switch" type="checkbox">
+                                                <span class="menu-enable-disable-slider"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="config-title">
+                                        <h5>Video</h5>
+                                    </div>
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-8">
+                                            <div class="config-item-txt">AutoPlay Video</div>
+                                        </div>
+                                        <div class="col-xl-4 text-right toggle-spacing">
+                                            <label class="menu-enable-disable">
+                                                <input class="menu-enable-disable-switch" type="checkbox">
+                                                <span class="menu-enable-disable-slider"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="config-title">
+                                        <h5>Logo</h5>
+                                    </div>
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-8">
+                                            <div class="config-item-txt">Display Logo</div>
+                                        </div>
+                                        <div class="col-xl-4 text-right toggle-spacing">
                                             <label class="menu-enable-disable">
                                                 <input class="menu-enable-disable-switch" type="checkbox">
                                                 <span class="menu-enable-disable-slider"></span>
@@ -163,12 +205,79 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
-                                    <div class="row">
-                                        <div class="col-xl-10">
-                                            <div class="config-item-txt">Menu Enabled</div>
+                                <div class="col-xl-6 app-config-col">
+                                    <div class="config-title">
+                                        <h5>Languages</h5>
+                                    </div>
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-8">
+                                            <div class="config-item-txt">Display language button</div>
                                         </div>
-                                        <div class="col-xl-2 text-right">
+                                        <div class="col-xl-4 text-right toggle-spacing">
+                                            <label class="menu-enable-disable">
+                                                <input class="menu-enable-disable-switch" type="checkbox" checked>
+                                                <span class="menu-enable-disable-slider"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="config-title">
+                                        <h5>Order</h5>
+                                    </div>
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-8">
+                                            <div class="config-item-txt">Order Enabled</div>
+                                        </div>
+                                        <div class="col-xl-4 text-right toggle-spacing">
+                                            <label class="menu-enable-disable">
+                                                <input class="menu-enable-disable-switch" type="checkbox" checked>
+                                                <span class="menu-enable-disable-slider"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col-xl-8">
+                                            <div class="config-item-txt">Display Add Button on Grid Item</div>
+                                        </div>
+                                        <div class="col-xl-4 text-right toggle-spacing">
+                                            <label class="menu-enable-disable">
+                                                <input class="menu-enable-disable-switch" type="checkbox">
+                                                <span class="menu-enable-disable-slider"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col-xl-8">
+                                            <div class="config-item-txt">Order Submit Enabled</div>
+                                        </div>
+                                        <div class="col-xl-4 text-right toggle-spacing">
+                                            <label class="menu-enable-disable">
+                                                <input class="menu-enable-disable-switch" type="checkbox">
+                                                <span class="menu-enable-disable-slider"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="config-title">
+                                        <h5>Currency</h5>
+                                    </div>
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-8">
+                                            <div class="config-item-txt">Display Prices</div>
+                                        </div>
+                                        <div class="col-xl-4 text-right toggle-spacing">
+                                            <label class="menu-enable-disable">
+                                                <input class="menu-enable-disable-switch" type="checkbox">
+                                                <span class="menu-enable-disable-slider"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col-xl-8">
+                                            <div class="config-item-txt">Display Currency Sign</div>
+                                        </div>
+                                        <div class="col-xl-4 text-right toggle-spacing">
+                                            <label class="menu-enable-disable">
+                                                <input class="menu-enable-disable-switch" type="checkbox">
+                                                <span class="menu-enable-disable-slider"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col-xl-8">
+                                            <div class="config-item-txt">Display Currency Fraction</div>
+                                        </div>
+                                        <div class="col-xl-4 text-right toggle-spacing">
                                             <label class="menu-enable-disable">
                                                 <input class="menu-enable-disable-switch" type="checkbox">
                                                 <span class="menu-enable-disable-slider"></span>
@@ -178,9 +287,36 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <select class="form-control selectpicker bfh-timezones" data-country="IN"></select>
-                            <label class="adminpanel-formlabel">Time Zone</label>
+                        <div class="config-title title-spacing">
+                            <h5>Menu Button</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder=" ">
+                                    <label class="adminpanel-formlabel">Text of the Menu Button</label>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="form-group">
+                                    <select class="form-control selectpicker bfh-languages" data-language="en"></select>
+                                    <label class="adminpanel-formlabel">Languages</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="form-group">
+                                    <select class="form-control selectpicker bfh-currencies" data-currency="INR" data-hide-disabled="true"></select>
+                                    <label class="adminpanel-formlabel">Currency code</label>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="form-group">
+                                    <select class="form-control selectpicker bfh-timezones" data-country="IN"></select>
+                                    <label class="adminpanel-formlabel">Time Zone</label>
+                                </div>
+                            </div>
                         </div>
                         <div class="text-center">
                             <button class="common-button-admin save" type="submit">Save</button>

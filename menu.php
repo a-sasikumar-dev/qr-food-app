@@ -296,7 +296,7 @@
 		        			</div>
 						</div>
         				<div class="buttons-adminform">
-        					<button class="common-button-admin" type="button" data-dismiss="modal">Cancel</button>
+        					<button class="common-button-admin cancel" type="button" data-dismiss="modal">Cancel</button>
         					<button class="common-button-admin" type="submit">Save</button>
         				</div>
         			</form>
