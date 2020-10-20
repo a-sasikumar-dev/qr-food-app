@@ -71,11 +71,11 @@ body a:hover
 	color: var(--adminpanel-main-color);
   text-decoration: none;
 }
-h1,h2,h3,h4,h5,h6
+h1,h2,h3,h4,h5,h6,th
 {
   color: #000;
 }
-p,li,a
+p,li,a,span,td
 {
   color: #777;
 }
@@ -1103,6 +1103,7 @@ button:focus
   text-align: center;
   margin-bottom: 30px;
   margin-top: 15px;
+  border-top: 1px solid #eaeaea;
 }
 .adminpage-title h1, .popup-title .modal-title
 {
@@ -1110,7 +1111,7 @@ button:focus
   margin-bottom: 0px;
   background-color: var(--adminpanel-main-color);
   position: relative;
-  top: -3px;
+  top: -5px;
   padding: 8px 20px;
   color: #fff;
   display: inline-block;
@@ -1267,10 +1268,10 @@ button:focus
   border-color: #80bdff;
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); 
 }
-.admin-panel-form .bootstrap-select .dropdown-menu li:first-child a
+/*.admin-panel-form .bootstrap-select .dropdown-menu li:first-child a
 {
   display: none;
-}
+}*/
 .admin-panel-form .bootstrap-select>.dropdown-toggle
 {
   height: 100%;
@@ -2099,7 +2100,7 @@ button:focus
 .price-num
 {
   font-size: 13px;
-  color: #666;
+  color: #777;
 }
 .description-category
 {
@@ -4218,6 +4219,224 @@ button:focus
   right: -14px;
   bottom: 0;
 }
+/* Orders History page */
+.orders-history-container
+{
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 0 10px 0 rgba(183,192,206,.2);
+  border: 1px solid rgba(238,238,238,.75);
+}
+.orders-history-container .admin-panel-form
+{
+  padding: 0px;
+}
+.orders-history-header
+{
+  border-bottom: 1px solid #eaeaea;
+  margin: 0 -15px 10px;
+  padding: 0 15px 15px;
+}
+.orders-history-header label
+{
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 3px;
+}
+.daterangepicker td, .daterangepicker th
+{
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  color: #000;
+  font-weight: normal;
+}
+.daterange-order
+{
+  position: relative;
+}
+.daterange-order i
+{
+  position: absolute;
+  top: 38px;
+  right: 10px;
+  color: var(--adminpanel-icon-color);
+}
+.daterangepicker .daterangepicker_input i
+{
+  color: var(--adminpanel-icon-color);
+  font-size: 14px;
+}
+.daterangepicker td.start-date.active, .daterangepicker td.end-date.active, .daterangepicker td.end-date.active:hover
+{
+  background-color: var(--adminpanel-main-color);
+}
+.daterangepicker td.in-range
+{
+  background-color: #f1eefb;
+}
+.daterangepicker.ltr .ranges
+{
+  float: none;
+  text-align: center;
+}
+.ranges .range_inputs .applyBtn, .ranges .range_inputs .applyBtn:active
+{
+  background-color: var(--adminpanel-main-color);
+  border-color: var(--adminpanel-main-color);
+}
+.ranges .range_inputs .applyBtn:not(:disabled):not(.disabled):active:focus
+{
+  box-shadow: none;
+}
+.daterangepicker.ltr
+{
+  left: 50% !important;
+  transform: translateX(-70%);
+}
+.daterangepicker.opensright:after, .daterangepicker.opensright:before
+{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.search-orders .input-group-text
+{
+  cursor: pointer;
+}
+.export-reload-btns
+{
+  text-align: right;
+}
+.export-reload 
+{
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #eaeaea;
+  padding: .375rem .75rem;
+  font-size: 14px;
+  color: var(--adminpanel-main-color);
+  height: 40px;
+}
+.export-reload i 
+{
+  padding-right: 5px;
+  font-size: 13px;
+}
+.orders-history-body
+{
+  margin: 0 -10px;
+}
+.orders-history-body th, .orders-history-body td 
+{
+  padding: 10px;
+  background-color: #f1eefb;
+  font-size: 14px;
+  font-weight: normal;
+  border: 1px solid #eaeaea;
+  text-align: center;
+}
+.orders-history-body td
+{
+  background-color: transparent; 
+}
+.orders-history-body .order-comp, .orders-history-body .order-waiting
+{
+  position: relative;
+  padding-left: 25px;
+}
+.order-comp:before, .order-waiting:before
+{
+  content: '\2713';
+  position: absolute;
+  left: 10px;
+  top: 48%;
+  border-radius: 50%;
+  background: #d6ffe0;
+  height: 22px;
+  width: 22px;
+  color: #00ab4c;
+  text-align: center;
+  line-height: 22px;
+  transform: translateY(-50%);
+}
+.order-waiting:before
+{
+  content: '\00D7';
+  background: #ffe8e8;
+  color: #bb0000;
+}
+.action-orders a
+{
+  cursor: pointer;
+}
+.action-orders .dropdown-menu
+{
+  transition: 0.2s all linear;
+  left: 50% !important;
+  top: 20px !important;
+  will-change: initial !important;
+  box-shadow: 0 0 10px 0 rgba(185, 185, 185, 0.65);
+  border: 1px solid rgba(238,238,238,.75);
+  border-radius: 5px;
+  padding: 0px;
+  transform: translateX(-80%) !important;
+}
+.action-orders .dropdown-menu:before, .action-orders .dropdown-menu:after
+{
+  content: '';
+  position: absolute;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #e0e0e0;
+  top: -8px;
+  right: 20px;
+}
+.action-orders .dropdown-menu:after
+{
+  border-left: 6px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 6px solid #fff;
+  top: -6px;
+}
+.action-orders .dropdown-item, .action-orders .dropdown-item:focus
+{
+  color: #777;
+  padding: 10px;
+  transition: 0.2s all linear;
+}
+.action-orders .dropdown-item i
+{
+  color: var(--adminpanel-icon-color);
+  margin-right: 5px;
+}
+.action-orders .dropdown-item:hover
+{
+  color: #000
+}
+.orders-history-container .pagination
+{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.orders-history-container .pagination .page-item.disabled .page-link
+{
+  color: #777;
+}
+.orders-history-container .pagination .page-link:focus
+{
+  box-shadow: none;
+  outline: none;
+}
+.orders-history-container .pagination .page-item.active .page-link
+{
+  background-color: var(--adminpanel-main-color);
+  border-color: var(--adminpanel-main-color);
+  color: #fff;
+}
+.orders-history-container .pagination .page-link
+{
+  color: var(--adminpanel-main-color);
+}
 
 /*19-10-2020 Monotree Timeline */
 .timeline-container 
@@ -4490,3 +4709,5 @@ button:focus
     padding: 10px 10px 10px;
   }
 }
+
+

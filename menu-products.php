@@ -164,19 +164,13 @@
                                     <h3>Pizza</h3>
                                     <ul class="sidebar-menu category-action-btns">
                                         <li><a class="nav-link" href="#"><i class="fas fa-edit"></i>
-                                            <div class="admin-tooltip">
-                                                <span class="tool-text">Edit</span>
-                                            </div></a>
+                                            <div class="admin-tooltip">Edit</div></a>
                                         </li>
                                         <li><a class="nav-link" href="#"><i class="fas fa-copy"></i>
-                                            <div class="admin-tooltip">
-                                                <span class="tool-text">Duplicate</span>
-                                            </div></a>
+                                            <div class="admin-tooltip">Duplicate</div></a>
                                         </li>
                                         <li><a class="nav-link" href="#"><i class="fas fa-trash"></i>
-                                            <div class="admin-tooltip">
-                                                <span class="tool-text">Delete</span>
-                                            </div></a>
+                                            <div class="admin-tooltip">Delete</div></a>
                                         </li>
                                     </ul>
                                     <div class="cat-actions">
@@ -226,19 +220,13 @@
                                     <h3>Chicken</h3>
                                     <ul class="sidebar-menu category-action-btns">
                                         <li><a class="nav-link" href="#"><i class="fas fa-edit"></i>
-                                            <div class="admin-tooltip">
-                                                <span class="tool-text">Edit</span>
-                                            </div></a>
+                                            <div class="admin-tooltip">Edit</div></a>
                                         </li>
                                         <li><a class="nav-link" href="#"><i class="fas fa-copy"></i>
-                                            <div class="admin-tooltip">
-                                                <span class="tool-text">Duplicate</span>
-                                            </div></a>
+                                            <div class="admin-tooltip">Duplicate</div></a>
                                         </li>
                                         <li><a class="nav-link" href="#"><i class="fas fa-trash"></i>
-                                            <div class="admin-tooltip">
-                                                <span class="tool-text">Delete</span>
-                                            </div></a>
+                                            <div class="admin-tooltip">Delete</div></a>
                                         </li>
                                     </ul>
                                     <div class="cat-actions">
@@ -288,19 +276,13 @@
                                     <h3>Rice</h3>
                                     <ul class="sidebar-menu category-action-btns">
                                         <li><a class="nav-link" href="#"><i class="fas fa-edit"></i>
-                                            <div class="admin-tooltip">
-                                                <span class="tool-text">Edit</span>
-                                            </div></a>
+                                            <div class="admin-tooltip">Edit</div></a>
                                         </li>
                                         <li><a class="nav-link" href="#"><i class="fas fa-copy"></i>
-                                            <div class="admin-tooltip">
-                                                <span class="tool-text">Duplicate</span>
-                                            </div></a>
+                                            <div class="admin-tooltip">Duplicate</div></a>
                                         </li>
                                         <li><a class="nav-link" href="#"><i class="fas fa-trash"></i>
-                                            <div class="admin-tooltip">
-                                                <span class="tool-text">Delete</span>
-                                            </div></a>
+                                            <div class="admin-tooltip">Delete</div></a>
                                         </li>
                                     </ul>
                                     <div class="cat-actions">
