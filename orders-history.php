@@ -67,7 +67,7 @@
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td><a href="#">7345</a></td>
+                    <td><a href="order-details.php">7345</a></td>
                     <td>Table 1</td>
                     <td>840053672</td>
                     <td>abc@gmail.com</td>
