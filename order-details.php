@@ -47,15 +47,21 @@
                                         <p class="order-det-info">7426</p>
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
+                                <div class="col-xl-6 pl-0">
                                     <div class="order-det-row">
                                         <h6 class="order-det-title">Action date</h6>
                                         <p class="order-det-info">20/10/2020 11:06</p>
                                     </div>
                                 </div>
+                                <div class="col-xl-12">
+                                    <div class="order-det-row">
+                                        <h6 class="order-det-title">Tracking Number</h6>
+                                        <p class="order-det-info">M!DJPU9SEKMM9OQQ4FI65Q</p>
+                                    </div>
+                                </div>
                             </div>
                             
-                            <div class="details-row">
+                            <!-- <div class="details-row">
                                 <div class="details-col-left">
                                     <p class="left-info-order">Action date</p>
                                 </div>
@@ -70,61 +76,70 @@
                                 <div class="details-col-right">
                                     <p class="right-info-order">M!DJPU9SEKMM9OQQ4FI65Q</p>
                                 </div>
+                            </div> -->
+                            <div class="orders-get-row">
+                                <div class="orders-get-col-left">
+                                    <p>Payment Method</p>
+                                </div>
+                                <div class="orders-get-col-right">
+                                    <p>Cash</p>
+                                </div>
+                            </div>
+                            <div class="orders-get-row">
+                                <div class="orders-get-col-left">
+                                    <p>Status</p>
+                                </div>
+                                <div class="orders-get-col-right">
+                                    <p>Completed</p>
+                                </div>
+                            </div>
+                            <div class="orders-get-row">
+                                <div class="orders-get-col-left">
+                                    <p>Email</p>
+                                </div>
+                                <div class="orders-get-col-right">
+                                    <p>abc@gmail.com</p>
+                                </div>
                             </div>
                             <div class="details-informations-get">
                                 <div class="informations-get-row">
-                                    <div class="informations-get-col-left">Order Number</div>
-                                    <!-- <div class="split-ellipse">:</div> -->
-                                    <div class="informations-get-col-right">7426</div>
-                                </div>
-                                <div class="informations-get-row">
-                                    <div class="informations-get-col-left">Action date</div>
-                                    <!-- <div class="split-ellipse">:</div> -->
-                                    <div class="informations-get-col-right">20/10/2020 11:06</div>
-                                </div>
-                                <div class="informations-get-row">
-                                    <div class="informations-get-col-left">Tracking Number</div>
-                                    <!-- <div class="split-ellipse">:</div> -->
-                                    <div class="informations-get-col-right">M!DJPU9SEKMM9OQQ4FI65Q</div>
-                                </div>
-                                <div class="informations-get-row">
                                     <div class="informations-get-col-left">Payment Method</div>
-                                    <!-- <div class="split-ellipse">:</div> -->
+                                    <div class="split-ellipse">:</div>
                                     <div class="informations-get-col-right">Cash</div>
                                 </div>
                                 <div class="informations-get-row">
                                     <div class="informations-get-col-left">Status</div>
-                                    <!-- <div class="split-ellipse">:</div> -->
+                                    <div class="split-ellipse">:</div>
                                     <div class="informations-get-col-right">Completed</div>
                                 </div>
                                 <div class="informations-get-row">
                                     <div class="informations-get-col-left">Email</div>
-                                    <!-- <div class="split-ellipse">:</div> -->
+                                    <div class="split-ellipse">:</div>
                                     <div class="informations-get-col-right">abc@gmail.com</div>
                                 </div>
                                 <div class="informations-get-row">
                                     <div class="informations-get-col-left">Additional Info</div>
-                                    <!-- <div class="split-ellipse">:</div> -->
+                                    <div class="split-ellipse">:</div>
                                     <div class="informations-get-col-right">-</div>
                                 </div>
                                 <div class="informations-get-row">
                                     <div class="informations-get-col-left">Paid sum</div>
-                                    <!-- <div class="split-ellipse">:</div> -->
+                                    <div class="split-ellipse">:</div>
                                     <div class="informations-get-col-right">25.3 USD</div>
                                 </div>
                                 <div class="informations-get-row">
                                     <div class="informations-get-col-left">Debt</div>
-                                    <!-- <div class="split-ellipse">:</div> -->
+                                    <div class="split-ellipse">:</div>
                                     <div class="informations-get-col-right">0 USD</div>
                                 </div>
                                 <div class="informations-get-row">
                                     <div class="informations-get-col-left">Subtotal</div>
-                                    <!-- <div class="split-ellipse">:</div> -->
+                                    <div class="split-ellipse">:</div>
                                     <div class="informations-get-col-right">23 USD</div>
                                 </div>
                                 <div class="informations-get-row">
                                     <div class="informations-get-col-left">Delivery</div>
-                                    <!-- <div class="split-ellipse">:</div> -->
+                                    <div class="split-ellipse">:</div>
                                     <div class="informations-get-col-right">2.3 USD</div>
                                 </div>
                             </div>
