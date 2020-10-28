@@ -77,7 +77,7 @@
                                     <p class="right-info-order">M!DJPU9SEKMM9OQQ4FI65Q</p>
                                 </div>
                             </div> -->
-                            <div class="orders-get-row">
+                            <!-- <div class="orders-get-row">
                                 <div class="orders-get-col-left">
                                     <p>Payment Method</p>
                                 </div>
@@ -100,7 +100,7 @@
                                 <div class="orders-get-col-right">
                                     <p>abc@gmail.com</p>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="details-informations-get">
                                 <div class="informations-get-row">
                                     <div class="informations-get-col-left">Payment Method</div>

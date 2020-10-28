@@ -130,7 +130,7 @@
                                     </div>
                                     <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionBilling">
                                         <div class="card-body billinginformation-box">
-                                            <div class="row align-items-center table-border">
+                                            <!-- <div class="row align-items-center table-border">
                                                 <div class="col-md-4">
                                                     <p class="billing-title-name">Name</p>
                                                 </div>
@@ -216,6 +216,62 @@
                                                 </div>
                                                 <div class="col-md-7">
                                                     <p class="billing-title-information">625012</p>
+                                                </div>
+                                            </div> -->
+                                            <div class="row">
+                                                <div class="col-xl-3">
+                                                    <div class="order-det-row">
+                                                        <h6 class="order-det-title">Name</h6>
+                                                        <p class="order-det-info">Sasikumar</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-3">
+                                                    <div class="order-det-row">
+                                                        <h6 class="order-det-title">Email</h6>
+                                                        <p class="order-det-info">dsaf@gmail.com</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-3">
+                                                    <div class="order-det-row">
+                                                        <h6 class="order-det-title">Phone</h6>
+                                                        <p class="order-det-info">1234567890</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-3">
+                                                    <div class="order-det-row">
+                                                        <h6 class="order-det-title">Email</h6>
+                                                        <p class="order-det-info">dsaf@gmail.com</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-3">
+                                                    <div class="order-det-row">
+                                                        <h6 class="order-det-title">Address</h6>
+                                                        <p class="order-det-info">1, clock tower, Peak.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-3">
+                                                    <div class="order-det-row">
+                                                        <h6 class="order-det-title">City</h6>
+                                                        <p class="order-det-info">Madurai</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-3">
+                                                    <div class="order-det-row">
+                                                        <h6 class="order-det-title">State</h6>
+                                                        <p class="order-det-info">Tamilnadu</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-3">
+                                                    <div class="order-det-row">
+                                                        <h6 class="order-det-title">Country</h6>
+                                                        <p class="order-det-info">India</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-3">
+                                                    <div class="order-det-row">
+                                                        <h6 class="order-det-title">Pin code</h6>
+                                                        <p class="order-det-info">625012</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

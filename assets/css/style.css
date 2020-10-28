@@ -30,7 +30,7 @@
   --secondary-color: #707070;
   --default-color: #000;
   --adminpanel-main-color: #6b54af;
-  --adminpanel-secondary-color: #ded9ec;
+  --adminpanel-secondary-color: #f1eefb;
   --adminpanel-active-color: #6b54af;
   --adminpanel-tooltip-color: #000;
   --adminpanel-notify-color: #00ab4c;
@@ -875,7 +875,7 @@ button:focus
 .pages-container
 {
 /*  background-color: #fff;*/
-  padding: 0 10px;
+  /*padding: 0 10px;*/
   position: relative;
 }
 
@@ -1343,7 +1343,6 @@ button:focus
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.44), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
   position: relative;
   transition: 0.2s all linear;
-  font-size: 16px;
   margin: 0 5px;
 }
 .common-button-admin.cancel
@@ -1630,7 +1629,7 @@ button:focus
   position: relative;
   min-width: 10px;
   max-width: 60%;
-  box-shadow: 1px 2px 5px 0px rgba(128, 128, 128, 0.6);
+  /*box-shadow: 1px 2px 5px 0px rgba(128, 128, 128, 0.6);*/
   border-radius: 0 50px 50px 0;
   border-bottom: 1px solid #ececec;
 }
@@ -1755,7 +1754,7 @@ button:focus
 }
 .product-rightcat-header-icons
 {
-  box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.11);
+  /*box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.11);*/
   padding: 8px 10px 8px 5px;
   background: var(--adminpanel-secondary-color);
   border-radius: 50px 10px 10px 50px;
@@ -1967,7 +1966,7 @@ button:focus
 }
 .product-category-header
 {
-  box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.11);
+  /*box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.11);*/
   padding: 10px;
   background: var(--adminpanel-secondary-color);
   color: var(--adminpanel-main-color);
@@ -3338,13 +3337,13 @@ button:focus
 .profile-information-box .admin-panel-form
 {
   background: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 0 10px 0 rgba(183,192,206,.2);
   border: 1px solid rgba(238,238,238,.75);
 }
 .profile-information-box .tab-pane
 {
-  padding: 15px;
+  padding: 15px 0;
 }
 .bg-img-profile img
 {
@@ -3398,7 +3397,7 @@ button:focus
 }
 .profile-tab .nav-tabs .nav-link.active
 {
-  border-bottom: 3px solid #ca3d26; 
+  border-bottom: 3px solid var(--adminpanel-main-color); 
   background: rgba(255, 255, 255, 0.12);
 }
 .profile-information-box::-webkit-scrollbar
@@ -3613,7 +3612,7 @@ button:focus
   border: none;
   border-radius: 10px;
   /*box-shadow: 0 0 10px 0px #c3c3c3;*/
-  padding: 20px;
+  /*padding: 0 15px;*/
   overflow: visible;
   box-shadow: 0 0 10px 0 rgba(183,192,206,.2);
   border: 1px solid rgba(238,238,238,.75);
@@ -3621,26 +3620,13 @@ button:focus
 .billing-accordion .card .card-header
 {
   display: flex;
-  border: none;
-  padding-bottom: 5px;
-  background: #fff;
-  padding: 0px 5px;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #eaeaea;
-}
-.billing-accordion .billinginformation-box
-{
-  width: 50%;
-  border: 15px solid #eaeaea;
-}
-.billing-accordion .billinginformation-box .table-border
-{
-  border-bottom: 1px solid #eaeaea;
   align-items: center;
-}
-.billing-accordion .billinginformation-box .table-border:last-child
-{
   border: none;
+  background: #fff;
+  padding: 10px 15px;
+  border-bottom: 1px solid #eaeaea;
+  background: var(--adminpanel-secondary-color);
+  border-radius: 5px 5px 0 0;
 }
 .billing-accordion .edit-icon-acc [aria-expanded="true"]
 {
@@ -3648,11 +3634,14 @@ button:focus
 }
 .billing-accordion .edit-icon-acc .common-tooltipbox
 {
-  margin-top: -5px;
   cursor: pointer;
-  top: -5px;
 }
-.billing-title-name, .billing-title-information
+.billing-accordion .edit-icon-acc .common-tooltipbox .admin-common-tooltip
+{
+  text-align: center;
+  white-space: inherit;
+}
+/*.billing-title-name, .billing-title-information
 {
   color: #757575;
   margin-bottom: 0px;
@@ -3667,11 +3656,12 @@ button:focus
   color: #757575;
   padding: 10px 0;
   display: inline-block;
-}
+}*/
 .billing-accordion .card-header h5
 {
   font-size: 16px;
   display: inline-block;
+  margin-bottom: 0px;
 }
 .billing-accordion .card-header .bill-title
 {
@@ -3682,7 +3672,10 @@ button:focus
   box-shadow: none;
   border: 1px solid #e8e8e8;
 }
-
+.billinginformation-box
+{
+  padding: 15px;
+}
 /*Pricing tab styles */
 .pricing-plan-container
 {
@@ -3739,17 +3732,16 @@ button:focus
 }
 .pricing-image-body
 {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .pricing-image
 {
-  display: table-cell;
   height: 150px;
-  vertical-align: middle;
-}
-.pricing-image img
-{
-  width: 50%;
+  flex: 0 0 50%;
+  align-items: flex-end;
+  display: flex;
 }
 .pricing-price
 {
@@ -3907,7 +3899,7 @@ button:focus
   z-index: 1;
   padding-top: 13px;
   margin-bottom: 85px;
-  background: #f1eefb;
+  background: var(--adminpanel-secondary-color);
 }
 .plan-important:hover
 {
@@ -3915,24 +3907,24 @@ button:focus
 }
 .plan-important .pricing-header h4
 {
-  background: #f1eefb;
+  background: var(--adminpanel-secondary-color);
   font-size: 17px;
 }
 .plan-important .pricing-services h4
 {
-  background: var(--adminpanel-secondary-color);
+  background: #e8e3f9;
 }
 .plan-important .pricing-services h4:before
 {
-  border-right: 10px solid var(--adminpanel-secondary-color);
+  border-right: 10px solid #e8e3f9;
 }
 .plan-important .pricing-services h4:after
 {
-  border-left: 10px solid var(--adminpanel-secondary-color);
+  border-left: 10px solid #e8e3f9;
 }
 .plan-important .pricing-services:after
 {
-  border-top: 1px solid var(--adminpanel-secondary-color);
+  border-top: 1px solid #e8e3f9;
 }
 .monthyear-toggle
 {
@@ -3960,7 +3952,7 @@ button:focus
 }
 .monthyear-toggle .menu-enable-disable-slider
 { 
-  background: #f1eefb;
+  background: var(--adminpanel-secondary-color);
   box-shadow: rgba(166, 166, 166, 0.57) 0px 2px 3px inset;
 }
 .monthyear-toggle .menu-enable-disable input[type="checkbox"]:not(:checked) ~.text-toggle-left
@@ -3995,7 +3987,7 @@ button:focus
 }
 .monthyear-toggle .menu-enable-disable-switch:checked + .menu-enable-disable-slider
 {
-  background-color: #ffe7e7;
+  background-color: var(--adminpanel-secondary-color);
 }
 .i-icon:before
 {
@@ -4502,7 +4494,7 @@ button:focus
 }
 .order-det-title
 {
-  background: #f1eefb;
+  background: var(--adminpanel-secondary-color);
   padding: 10px;
   text-align: center;
   margin-bottom: 0px;
@@ -4528,6 +4520,10 @@ button:focus
 .details-informations-get
 {
   margin-top: 15px;
+  background: #f1eefb;
+  margin: 15px 0px;
+  padding: 0 10px;
+  border: 1px dashed var(--adminpanel-main-color);
 }
 .order-type-title h3
 {
@@ -4582,7 +4578,6 @@ button:focus
   padding: 10px 0px;
   font-size: 14px;
   flex-grow: 1;
-  background: #fff;
   word-break: break-all;
 }
 .informations-get-col-right
@@ -4592,6 +4587,9 @@ button:focus
 .split-ellipse
 {
   color: #999;
+  flex: 0 0 2%;
+  text-align: center;
+  font-size: 14px;
 }
 .order-details-footer
 {
@@ -4601,7 +4599,7 @@ button:focus
   padding-bottom: 10px;
   border-top: 1px solid #eaeaea;*/
 }
-.orders-get-row
+/*.orders-get-row
 {
   display: flex;
   flex-wrap: wrap;
@@ -4640,7 +4638,7 @@ button:focus
 .orders-get-col-right
 {
   text-align: right;
-}
+}*/
 /* Order details Right side styles */
 .order-details-right-box-body
 {
