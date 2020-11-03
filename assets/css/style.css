@@ -31,6 +31,7 @@
   --default-color: #000;
   --adminpanel-main-color: #6b54af;
   --adminpanel-secondary-color: #f1eefb;
+  --adminpanel-border-color: #e5ddff;
   --adminpanel-active-color: #6b54af;
   --adminpanel-tooltip-color: #000;
   --adminpanel-notify-color: #00ab4c;
@@ -386,7 +387,7 @@ button:focus
   padding: 10px 10px;
   vertical-align: middle;
 }
-.selected-lang i
+.angle-arrow
 {
   padding-left: 3px;
   vertical-align: text-bottom;
@@ -403,8 +404,6 @@ button:focus
   height: 50px;
   margin-top: 0;
   padding-top: 12px !important;
-  background: #f5f5f5;
-  border-radius: 5px;
   line-height: 25px;
   transition: 0.2s all linear;
 }
@@ -443,7 +442,7 @@ button:focus
 }
 .select-language li:hover 
 {
-    background: #eff3f9;
+  background: #eff3f9;
 }
 .select-language li:hover a
 {
@@ -489,7 +488,7 @@ button:focus
   display: inline-block;
   text-align: center;
   line-height: 30px;
-  color: #525c5d;
+  color: var(--adminpanel-icon-color);
 }
 .notify-number
 {
@@ -599,7 +598,7 @@ button:focus
 }
 .admin-profile .dropdown li:hover
 {
-    background: #eff3f9;
+  background: #eff3f9;
 }
 .admin-profile .dropdown li:first-child 
 {
@@ -621,7 +620,7 @@ button:focus
   text-decoration: none;
   transition: 0.2s all linear;
 }
-.admin-profile .dropdown a:hover
+.admin-profile .dropdown li:hover a
 {
   color: var(--adminpanel-hover-color);
 }
@@ -629,13 +628,10 @@ button:focus
 {
   color: var(--adminpanel-icon-color);
   margin-right: 5px;
-  width: 25px;
-  height: 25px;
   text-align: center;
   border-radius: 50px;
-  border: 2px solid;
   line-height: 22px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .status-view .header-tooltip, .action-icons .header-tooltip, .admin-common-tooltip
 {
@@ -1835,7 +1831,7 @@ button:focus
   transition:.5s ease all;
   top: 10px !important;
   padding: 0px;
-  box-shadow: 0 0 5px 3px rgba(0,0,0,.2);
+  box-shadow: 0 0 5px 3px rgb(0 0 0 / 9%);
   border: none;
 }
 .select-sortby .dropdown-menu:before
@@ -2041,6 +2037,10 @@ button:focus
   top: 5px;
   left: auto;
   right: 40px;
+}
+.category-action-btns li .admin-tooltip span
+{
+  color: #fff;
 }
 .category-action-btns li .nav-link .admin-tooltip:before
 {
@@ -2289,9 +2289,10 @@ button:focus
 .product-add-section .admin-panel-form
 {
   padding: 40px 40px;
-  box-shadow: 0 0 5px #9e9e9e;
   border-radius: 5px;
   background: #fff;
+  box-shadow: 0 0 10px 0 rgba(183,192,206,.2);
+  border: 1px solid rgba(238,238,238,.75);
 }
 .label-block
 {
@@ -2460,7 +2461,7 @@ button:focus
   position: absolute;
   left: -11px;
   top: 15px;
-  border: 5px solid var(--adminpanel-secondary-color);
+  border: 5px solid var(--adminpanel-border-color);
   border-radius: 500%;
   background: var(--adminpanel-main-color);
   height: 20px;
@@ -2472,7 +2473,7 @@ button:focus
 {
   content: "";
   position: absolute;
-  border-left: 1px dashed var(--adminpanel-secondary-color);
+  border-left: 1px dashed var(--adminpanel-border-color);
   left: -2px;
   top: 25px;
   height: 100%;
@@ -2484,7 +2485,8 @@ button:focus
 }
 .admin-qrgenerator-tab .category-edit-icons
 {
-  transform: translateY(-80%);
+  transform: translateY(-70%);
+  right: 10px;
 }
 .admin-qrgenerator-tab .nav-item .nav-link
 {
@@ -2773,7 +2775,7 @@ button:focus
 }
 .qr-quantity-inc-dec .input-group-prepend button strong, .qr-quantity-inc-dec .input-group-append button strong
 {
-  background: #ca3d26;
+  background: var(--adminpanel-main-color);
   width: 22px;
   height: 22px;
   display: inline-block;

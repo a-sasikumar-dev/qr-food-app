@@ -30,7 +30,7 @@
                                                 <label class="adminpanel-formlabel">Group name</label>
                                             </div>
                                             <div class="buttons-adminform">
-                                                <button class="common-button-admin" type="button" data-toggle="collapse" href="#categoryAdd" role="button" aria-expanded="false" aria-controls="collapseExample">Cancel</button>
+                                                <button class="common-button-admin cancel" type="button" data-toggle="collapse" href="#categoryAdd" role="button" aria-expanded="false" aria-controls="collapseExample">Cancel</button>
                                                 <button class="common-button-admin" type="submit">Save</button>
                                             </div>
                                         </form>
@@ -136,7 +136,7 @@
                                                             <input type="number" value="0" min="0" max="20">
                                                         </div>
                                                         <div class="buttons-adminform">
-                                                            <button class="common-button-admin" type="button" data-toggle="collapse" href="#qrtableAdd" role="button" aria-expanded="false" aria-controls="qrtableAddExample">Cancel</button>
+                                                            <button class="common-button-admin cancel" type="button" data-toggle="collapse" href="#qrtableAdd" role="button" aria-expanded="false" aria-controls="qrtableAddExample">Cancel</button>
                                                             <button class="common-button-admin" type="submit">Add</button>
                                                         </div>
                                                     </form>
