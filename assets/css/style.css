@@ -341,6 +341,7 @@ button:focus
 {
 	padding: 0px 15px;
   background: #ffffff;
+  box-shadow: 8px 0px 10px 5px rgb(0 0 0 / 5%);
 }
 .nav-height
 {
@@ -394,7 +395,7 @@ button:focus
 }
 .admin-right-panel .select-option-right:hover
 {
-  background: #eff1f5;
+  background: #eff3f9;
 }
 .language-select
 {
@@ -410,12 +411,14 @@ button:focus
 .select-language li
 {
   list-style: none;
+  position: relative;
+  z-index: 1;
 }
 .select-language li a 
 {
   display: block;
   padding: 10px 15px;
-  color: #525c5d;
+  color: #444;
   text-decoration: none;
   transition: 0.2s all linear;
 }
@@ -429,7 +432,7 @@ button:focus
   max-height: none;
   background-color: #fff;
   border-radius: 3px;
-  box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+  box-shadow: 0px 0 10px 5px rgb(82 92 115 / 9%);
   white-space: nowrap;
   display: none;
   text-align: left;
@@ -456,7 +459,7 @@ button:focus
   height: 0;
   border: 7px solid transparent;
   border-bottom: 7px solid #fff;
-  top: -12px;
+  top: -14px;
   right: 5px;
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -540,10 +543,10 @@ button:focus
   max-height: none;
   background-color: #fff;
   border-radius: 3px;
-  box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+  box-shadow: 0px 0 10px 5px rgb(82 92 115 / 9%);
   white-space: nowrap;
   display: none;
-  right: 5px;
+  right: 0px;
   top: 51px;
   text-align: left;
   transition: .2s ease-in;
@@ -579,7 +582,7 @@ button:focus
   height: 0;
   border: 7px solid transparent;
   border-bottom: 7px solid #fff;
-  top: -12px;
+  top: -14px;
   right: 5px;
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -616,7 +619,7 @@ button:focus
 {
   display: block;
   padding: 10px 15px;
-  color: #525c5d;
+  color: #444;
   text-decoration: none;
   transition: 0.2s all linear;
 }
@@ -740,6 +743,7 @@ button:focus
   height: 100%;
   background: #fff;
   z-index: 99;
+  box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 5%);
 }
 /*.admin-sidebar
 {
@@ -1591,7 +1595,7 @@ button:focus
 {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 10px;
   transform: translateY(-50%);
   z-index: 1;
 }
@@ -1658,7 +1662,7 @@ button:focus
 }
 .popover-category .collapse
 {
-  box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
+  box-shadow: 0px 0 10px 5px rgb(82 92 115 / 9%);
   border-radius: 5px;
 }
 .popover-category .collapse
@@ -1854,6 +1858,7 @@ button:focus
   opacity:1;
   transform: translateY(0px);
   transition:.5s ease all;
+  will-change: unset !important;
 }
 .select-sortby .dropdown-item
 {
@@ -1863,7 +1868,8 @@ button:focus
 }
 .select-sortby .dropdown-item:hover 
 {
-    background: #eff3f9;
+  background: #eff3f9;
+  color: var(--adminpanel-hover-color);
 }
 .right-category-menu
 {
