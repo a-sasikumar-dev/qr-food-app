@@ -97,7 +97,7 @@ button:focus
 	border-color: #80bdff;
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
 }
-.qrfood-login-reg
+/*.qrfood-login-reg
 {
 	background: url(../images/admin-bg.png);
 	width: 100%;
@@ -324,6 +324,101 @@ button:focus
 .admin-form-cont .country-code .form-labeltxt
 {
 	padding-left: 45px;
+}*/
+
+/* Admin panel Login Registration styles */
+.login-register-bg
+{
+  padding: 100px 0;
+  height: 100%;
+}
+.login-reg-form-row
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.login-reg-left-col, .login-reg-right-col
+{
+  flex: 0 0 50%;
+}
+.login-reg-left-col
+{
+  background: #6b54af;
+  margin: 20px 0;
+  border-radius: 15px 0 0 15px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 19%);
+}
+.login-reg-informations
+{
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.login-reg-informations img
+{
+  width: 80%;
+}
+.login-reg-informations h2
+{
+  color: #fff;
+}
+.login-reg-right-col
+{
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 19%);
+}
+.log-reg-form-header
+{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.log-reg-form-header h2
+{
+  text-transform: capitalize;
+  color: #6b54af;
+}
+.log-reg-form-header p, .login-reg-form-footer p
+{
+  color: #777;
+  margin-bottom: 0px;
+}
+.login-reg-form-footer
+{
+  text-align: center;
+  margin-top: 30px;
+}
+.login-reg-form-footer p a
+{
+  text-decoration: underline;
+}
+.login-register-bg
+{
+  position: relative;
+  overflow: hidden;
+}
+.background-imageslog-reg .bg-decoration-left-bottom
+{
+  position: absolute;
+  width: 500px;
+  height: 100%;
+  left: -150px;
+  bottom: 0;
+  z-index: -1;
+  object-fit: contain;
+}
+.background-imageslog-reg .bg-decoration-right-top
+{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  right: -150px;
+  top: 0;
+  z-index: -1;
 }
 
 /* Admin panel styles */
@@ -1340,7 +1435,7 @@ button:focus
   border-radius: 5px;
   font-size: 15px;
   display: inline-block;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.44), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
+  /*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.44), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);*/
   position: relative;
   transition: 0.2s all linear;
   margin: 0 5px;
@@ -4977,65 +5072,58 @@ button:focus
   top: -13px;
 }
 /*Responsive*/
-@media (max-width: 767px)
-{
-  .timeline-container .timeline-row:nth-child(even) .timeline-col .timeline-inner-box
-  {
-    padding-right: 0px;
-  }
-  .timeline-inner-box, .timeline-full-row .timeline-inner-box
-  {
-    padding-left: 0px;
-    padding-bottom: 20px;
-  }
-  .timeline-container .timeline-row:nth-child(even) .timeline-col, .timeline-col
-  {
-    width: 100%;
-  }
-  .timeline-container .timeline-row:nth-child(even) .timeline-col .avatar-timeline, .avatar-timeline
-  {
-    position: relative;
-    margin: 0 auto 20px;
-    display: block;
-    left: 0;
-  }
-  .timeline-container .timeline-row:nth-child(even) .timeline-col .timeline-info-box:before, .timeline-info-box:before
-  {
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 14px solid #e4e4e4;
-    position: absolute;
-    top: -14px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-top: none;
-    right: auto;
-  }
-  .timeline-container .timeline-row:nth-child(even) .timeline-col .timeline-info-box:after, .timeline-info-box:after
-  {
-    left: 50%;
-    border-left: 14px solid transparent;
-    border-right: 14px solid transparent;
-    border-bottom: 15px solid #fff;
-    top: -13px;
-    transform: translateX(-50%);
-    right: auto;
-    border-top: none;
-  }
-  .timeline-container .timeline-row:nth-child(even) .timeline-col .timeline-box:before, .timeline-box:before
-  {
-    left: 50%;
-  }
-  .timeline-full-row .timeline-box:before
-  {
-    top: 0;
-  }
-}
 @media (max-width: 991px)
 {
-  .timeline-info-box 
+  .login-register-bg
   {
-    padding: 10px 10px 10px;
+    padding: 30px 0; 
+  }
+  .login-reg-left-col
+  {
+    margin: 0px;
+  }
+  .login-reg-left-col, .login-reg-right-col 
+  {
+    flex: 0 0 100%;
+  }
+  .login-reg-left-col
+  {
+    border-radius: 15px 15px 0 0;
+  }
+  .login-reg-right-col
+  {
+    border-radius: 0 0 15px 15px;
+  }
+  .login-reg-informations
+  {
+    display: block;
+  }
+}
+@media (max-width: 767px)
+{
+  .admin-panel-form 
+  {
+    padding: 20px 20px;
+  }
+  .login-register-bg
+  {
+    padding: 30px 0; 
+  }
+  .login-reg-left-col
+  {
+    margin: 0px;
+  }
+  .login-reg-left-col, .login-reg-right-col 
+  {
+    flex: 0 0 100%;
+  }
+  .login-reg-left-col
+  {
+    border-radius: 15px 15px 0 0;
+  }
+  .login-reg-right-col
+  {
+    border-radius: 0 0 15px 15px;
   }
 }
 
