@@ -178,7 +178,7 @@
                                                         <h6 class="order-det-title">Pin code</h6>
                                                         <p class="order-det-info">625012</p>
                                                     </div>
-                                                </div>
+                                                </div>  
                                             </div>
                                         </div>
                                     </div>
