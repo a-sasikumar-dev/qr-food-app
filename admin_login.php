@@ -1,5 +1,9 @@
 <?php include "admin_login-register_header.html" ?>
 	<section class="login-register-bg">
+        <div class="background-imageslog-reg">
+            <img class="bg-decoration-left-bottom" src="assets/images/left-bg-img.png">
+            <img class="bg-decoration-right-top" src="assets/images/bg-decoration-right2.png">
+        </div>
 		<div class="container">
 			<div class="login-reg-form-row">
 				<div class="login-reg-left-col">

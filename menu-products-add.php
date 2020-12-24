@@ -9,7 +9,7 @@
             </div>
         </a>
         <div class="row">
-            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
                 <div class="product-add-section">
                     <div class="admin-panel-form">
                         <form>
@@ -18,7 +18,7 @@
                                 <label class="adminpanel-formlabel">Name</label>
                             </div>
                             <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div class="form-group input-group">
                                         <input type="text" class="form-control" placeholder=" ">
                                         <label class="adminpanel-formlabel">Regular Price</label>
@@ -27,7 +27,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div class="form-group input-group">
                                         <input type="text" class="form-control" placeholder=" ">
                                         <label class="adminpanel-formlabel">Selling Price</label>
@@ -38,7 +38,7 @@
                                 </div>
                             </div>
                             <div class="row align-items-center">
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div class="form-group input-group">
                                         <input type="text" class="form-control" placeholder=" ">
                                         <label class="adminpanel-formlabel">Discount</label>
@@ -47,7 +47,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div class="form-group common_custom_radio">
                                         <label class="label-block">Status</label>
                                         <input type="radio" id="active" name="setStatus">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
                 <div class="image-upload-content" data-toggle="modal" data-target="#product-add-popup">
                     <div class="add-upload-img">
                         <img src="assets/images/not-found.png" alt="Not Found Image">

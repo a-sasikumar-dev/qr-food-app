@@ -4,7 +4,7 @@
     </div> -->
     <div class="admin-qrgenerator-container">
         <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 pad-right-0">
+            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-5 col-12 pad-right-0">
                 <div class="admin-qrgenerator-aside">
                     <div class="product-category-header">
                         <h5>Groups</h5>
@@ -94,7 +94,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-9 col-lg-9 col-md-9 col-9 pad-left-0">
+            <div class="col-xl-9 col-lg-8 col-md-7 col-sm-7 col-12 pad-left-0">
                  <div class="admin-qrgenerator-right-side">
                     <div class="rightheader-relative">
                         <div class="product-rightcat-header">

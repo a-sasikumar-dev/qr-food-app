@@ -10,6 +10,17 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
 <script type="text/javascript">
+  // Automatically close mobile menu when click outside script
+  $(document).click(function (event) {
+    var clickover = $(event.target);
+    var $navbar = $(".navbar-collapse");               
+    var _opened = $navbar.hasClass("show");
+    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+        $navbar.collapse('hide');
+    }
+});
+</script>
+<script type="text/javascript">
 // Submenus open script add active class script
 /*$('.admin-sidebar .sidebar-menu .admin-submenu-li .admin-submenus').hide();
 $(".admin-sidebar .admin-submenu-li a").click(function () {

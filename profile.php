@@ -23,7 +23,7 @@
                     <div class="tab-content" id="profileTabContent">
                         <div class="tab-pane fade show active" id="Profile" role="tabpanel" aria-labelledby="Profile-tab">
                             <div class="row">
-                                <div class="col-xl-5">
+                                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
                                     <div class="profile-box-left">
                                         <div class="profile-bg-img">
                                             <img src="assets/images/persona-profile-vector.png" />
@@ -38,22 +38,22 @@
                                                     <input class="file-upload" type="file" accept="image/*"/>
                                                 </div>
                                             </div>
-                                            <h4 class="profile-name-pro">Sasikumar</h4>
+                                            <h4 class="profile-name-pro">Lorem ipsum</h4>
                                             <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-7">
+                                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
                                     <form>
                                         <div class="admin-panel-form">
                                             <div class="row">
-                                                <div class="col-xl-6">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">Name</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-6">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                                     <div class="form-group">
                                                         <input type="email" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">Email</label>
@@ -61,13 +61,13 @@
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-xl-6">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">Phone</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-6">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">Website</label>
@@ -79,13 +79,13 @@
                                                 <label class="adminpanel-formlabel">Street Address</label>
                                             </div>
                                             <div class="row">
-                                                <div class="col-xl-6">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">City</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-6">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">State</label>
@@ -93,13 +93,13 @@
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-xl-6">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                                     <div class="form-group">
                                                         <select class="form-control selectpicker bfh-countries" data-country="US" data-flags="true" data-hide-disabled="true"></select>
                                                         <label class="adminpanel-formlabel">Country</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-6">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">Pincode</label>
@@ -130,120 +130,26 @@
                                     </div>
                                     <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionBilling">
                                         <div class="card-body billinginformation-box">
-                                            <!-- <div class="row align-items-center table-border">
-                                                <div class="col-md-4">
-                                                    <p class="billing-title-name">Name</p>
-                                                </div>
-                                                <div class="text-center">
-                                                    <span class="split-billing">:</span>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p class="billing-title-information">Sasikumar</p>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center table-border">
-                                                <div class="col-md-4">
-                                                    <p class="billing-title-name">Email</p>
-                                                </div>
-                                                <div class="text-center">
-                                                    <span class="split-billing">:</span>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p class="billing-title-information">dsaf@gmail.com</p>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center table-border">
-                                                <div class="col-md-4">
-                                                    <p class="billing-title-name">Phone</p>
-                                                </div>
-                                                <div class="text-center">
-                                                    <span class="split-billing">:</span>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p class="billing-title-information">1234567890</p>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center table-border">
-                                                <div class="col-md-4">
-                                                    <p class="billing-title-name">Address</p>
-                                                </div>
-                                                <div class="text-center">
-                                                    <span class="split-billing">:</span>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p class="billing-title-information">1, clock tower, Peak.</p>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center table-border">
-                                                <div class="col-md-4">
-                                                    <p class="billing-title-name">City</p>
-                                                </div>
-                                                <div class="text-center">
-                                                    <span class="split-billing">:</span>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p class="billing-title-information">Madurai</p>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center table-border">
-                                                <div class="col-md-4">
-                                                    <p class="billing-title-name">State</p>
-                                                </div>
-                                                <div class="text-center">
-                                                    <span class="split-billing">:</span>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p class="billing-title-information">Tamilnadu</p>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center table-border">
-                                                <div class="col-md-4">
-                                                    <p class="billing-title-name">Country</p>
-                                                </div>
-                                                <div class="text-center">
-                                                    <span class="split-billing">:</span>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p class="billing-title-information">India</p>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center table-border">
-                                                <div class="col-md-4">
-                                                    <p class="billing-title-name">Pin code</p>
-                                                </div>
-                                                <div class="text-center">
-                                                    <span class="split-billing">:</span>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p class="billing-title-information">625012</p>
-                                                </div>
-                                            </div> -->
                                             <div class="row">
-                                                <div class="col-xl-3">
+                                                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                     <div class="order-det-row">
                                                         <h6 class="order-det-title">Name</h6>
                                                         <p class="order-det-info">Sasikumar</p>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-3">
+                                                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                     <div class="order-det-row">
                                                         <h6 class="order-det-title">Email</h6>
                                                         <p class="order-det-info">dsaf@gmail.com</p>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-3">
+                                                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                     <div class="order-det-row">
                                                         <h6 class="order-det-title">Phone</h6>
                                                         <p class="order-det-info">1234567890</p>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-3">
-                                                    <div class="order-det-row">
-                                                        <h6 class="order-det-title">Email</h6>
-                                                        <p class="order-det-info">dsaf@gmail.com</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-3">
+                                                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                     <div class="order-det-row">
                                                         <h6 class="order-det-title">Address</h6>
                                                         <p class="order-det-info">1, clock tower, Peak.</p>

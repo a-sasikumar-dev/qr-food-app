@@ -4,7 +4,7 @@
 	</div>
 	<section class="admin-menu-box-container">
 		<div class="row">
-			<div class="col-xl-3 col-lg-3 col-md-3 col-3">
+			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
 				<div class="admin-menu-box">
 					<div class="admin-menu-img-box default-menu-box">
 						<i class="fas fa-utensils"></i>
@@ -45,7 +45,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-3">
+			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
 				<div class="admin-menu-box">
 					<div class="admin-menu-img-box">
 						<img src="assets/images/admin-bg.png" alt="Menu Image">
@@ -86,130 +86,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- <div class="col-xl-3 col-lg-3 col-md-3 col-3">
-				<div class="admin-menu-box">
-					<div class="admin-menu-img-box">
-						<img src="assets/images/chicken.jpg" alt="Chicken Image">
-						<div class="menu-enter-btns">
-							<p class="enterlocal-btn"><a href="#">Enter</a></p>
-							<p class="enterlocal-btn"><a href="#">Localize</a></p>
-						</div>
-					</div>
-					<div class="admin-menu-content-box">
-						<h3>Chicken</h3>
-						<p class="itemname-date">10 items - Dec 12, 2020</p>
-						<ul class="action-icons">
-							<li><a href="#"><i class="fas fa-edit"></i>
-								<div class="header-tooltip">
-									<span class="tool-text">Edit</span>
-								</div></a>
-							</li>
-							<li><a href="#"><i class="fas fa-trash"></i>
-								<div class="header-tooltip">
-									<span class="tool-text">Delete</span>
-								</div></a>
-							</li>
-							<li><a href="#"><i class="fas fa-copy"></i>
-								<div class="header-tooltip">
-									<span class="tool-text">Duplicate</span>
-								</div></a>
-							</li>
-							<li>
-								<label class="menu-enable-disable">
-									<input class="menu-enable-disable-switch" type="checkbox" checked>
-								  	<span class="menu-enable-disable-slider"></span>
-								  	<div class="header-tooltip">
-										<span class="tool-text">Enable / Disable</span>
-									</div>
-								</label>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-3">
-				<div class="admin-menu-box">
-					<div class="admin-menu-img-box">
-						<img src="assets/images/pizza.jpg" alt="Pizza Image">
-						<div class="menu-enter-btns">
-							<p class="enterlocal-btn"><a href="#">Enter</a></p>
-							<p class="enterlocal-btn"><a href="#">Localize</a></p>
-						</div>
-					</div>
-					<div class="admin-menu-content-box">
-						<h3>Pizza</h3>
-						<p class="itemname-date">10 items - Dec 12, 2020</p>
-						<ul class="action-icons">
-							<li><a href="#"><i class="fas fa-edit"></i>
-								<div class="header-tooltip">
-									<span class="tool-text">Edit</span>
-								</div></a>
-							</li>
-							<li><a href="#"><i class="fas fa-trash"></i>
-								<div class="header-tooltip">
-									<span class="tool-text">Delete</span>
-								</div></a>
-							</li>
-							<li><a href="#"><i class="fas fa-copy"></i>
-								<div class="header-tooltip">
-									<span class="tool-text">Duplicate</span>
-								</div></a>
-							</li>
-							<li>
-								<label class="menu-enable-disable">
-									<input class="menu-enable-disable-switch" type="checkbox">
-								  	<span class="menu-enable-disable-slider"></span>
-								  	<div class="header-tooltip">
-										<span class="tool-text">Enable / Disable</span>
-									</div>
-								</label>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-3">
-				<div class="admin-menu-box">
-					<div class="admin-menu-img-box">
-						<img src="assets/images/rice.jpg" alt="Rice Image">
-						<div class="menu-enter-btns">
-							<p class="enterlocal-btn"><a href="#">Enter</a></p>
-							<p class="enterlocal-btn"><a href="#">Localize</a></p>
-						</div>
-					</div>
-					<div class="admin-menu-content-box">
-						<h3>Rice</h3>
-						<p class="itemname-date">10 items - Dec 12, 2020</p>
-						<ul class="action-icons">
-							<li><a href="#"><i class="fas fa-edit"></i>
-								<div class="header-tooltip">
-									<span class="tool-text">Edit</span>
-								</div></a>
-							</li>
-							<li><a href="#"><i class="fas fa-trash"></i>
-								<div class="header-tooltip">
-									<span class="tool-text">Delete</span>
-								</div></a>
-							</li>
-							<li><a href="#"><i class="fas fa-copy"></i>
-								<div class="header-tooltip">
-									<span class="tool-text">Duplicate</span>
-								</div></a>
-							</li>
-							<li>
-								<label class="menu-enable-disable">
-									<input class="menu-enable-disable-switch" type="checkbox" checked>
-								  	<span class="menu-enable-disable-slider"></span>
-								  	<div class="header-tooltip">
-										<span class="tool-text">Enable / Disable</span>
-									</div>
-								</label>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div> -->
-			<div class="col-xl-3 col-lg-3 col-md-3 col-3">
+			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
 				<div class="admin-menu-box">
 					<div class="admin-menu-img-box">
 						<img src="assets/images/pizza.jpg" alt="Pizza Image">
@@ -250,10 +127,133 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-3">
+			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
 				<div class="admin-menu-box">
 					<div class="add-menu-plus">
 						<i class="fa fa-plus" data-toggle="modal" data-target="#createmenuModal"></i>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+				<div class="admin-menu-box">
+					<div class="admin-menu-img-box">
+						<img src="assets/images/chicken.jpg" alt="Chicken Image">
+						<div class="menu-enter-btns">
+							<p class="enterlocal-btn"><a href="#">Enter</a></p>
+							<p class="enterlocal-btn"><a href="#">Localize</a></p>
+						</div>
+					</div>
+					<div class="admin-menu-content-box">
+						<h3>Chicken</h3>
+						<p class="itemname-date">10 items - Dec 12, 2020</p>
+						<ul class="action-icons">
+							<li><a href="#"><i class="fas fa-edit"></i>
+								<div class="header-tooltip">
+									<span class="tool-text">Edit</span>
+								</div></a>
+							</li>
+							<li><a href="#"><i class="fas fa-trash"></i>
+								<div class="header-tooltip">
+									<span class="tool-text">Delete</span>
+								</div></a>
+							</li>
+							<li><a href="#"><i class="fas fa-copy"></i>
+								<div class="header-tooltip">
+									<span class="tool-text">Duplicate</span>
+								</div></a>
+							</li>
+							<li>
+								<label class="menu-enable-disable">
+									<input class="menu-enable-disable-switch" type="checkbox" checked>
+								  	<span class="menu-enable-disable-slider"></span>
+								  	<div class="header-tooltip">
+										<span class="tool-text">Enable / Disable</span>
+									</div>
+								</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+				<div class="admin-menu-box">
+					<div class="admin-menu-img-box">
+						<img src="assets/images/pizza.jpg" alt="Pizza Image">
+						<div class="menu-enter-btns">
+							<p class="enterlocal-btn"><a href="#">Enter</a></p>
+							<p class="enterlocal-btn"><a href="#">Localize</a></p>
+						</div>
+					</div>
+					<div class="admin-menu-content-box">
+						<h3>Pizza</h3>
+						<p class="itemname-date">10 items - Dec 12, 2020</p>
+						<ul class="action-icons">
+							<li><a href="#"><i class="fas fa-edit"></i>
+								<div class="header-tooltip">
+									<span class="tool-text">Edit</span>
+								</div></a>
+							</li>
+							<li><a href="#"><i class="fas fa-trash"></i>
+								<div class="header-tooltip">
+									<span class="tool-text">Delete</span>
+								</div></a>
+							</li>
+							<li><a href="#"><i class="fas fa-copy"></i>
+								<div class="header-tooltip">
+									<span class="tool-text">Duplicate</span>
+								</div></a>
+							</li>
+							<li>
+								<label class="menu-enable-disable">
+									<input class="menu-enable-disable-switch" type="checkbox">
+								  	<span class="menu-enable-disable-slider"></span>
+								  	<div class="header-tooltip">
+										<span class="tool-text">Enable / Disable</span>
+									</div>
+								</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+				<div class="admin-menu-box">
+					<div class="admin-menu-img-box">
+						<img src="assets/images/rice.jpg" alt="Rice Image">
+						<div class="menu-enter-btns">
+							<p class="enterlocal-btn"><a href="#">Enter</a></p>
+							<p class="enterlocal-btn"><a href="#">Localize</a></p>
+						</div>
+					</div>
+					<div class="admin-menu-content-box">
+						<h3>Rice</h3>
+						<p class="itemname-date">10 items - Dec 12, 2020</p>
+						<ul class="action-icons">
+							<li><a href="#"><i class="fas fa-edit"></i>
+								<div class="header-tooltip">
+									<span class="tool-text">Edit</span>
+								</div></a>
+							</li>
+							<li><a href="#"><i class="fas fa-trash"></i>
+								<div class="header-tooltip">
+									<span class="tool-text">Delete</span>
+								</div></a>
+							</li>
+							<li><a href="#"><i class="fas fa-copy"></i>
+								<div class="header-tooltip">
+									<span class="tool-text">Duplicate</span>
+								</div></a>
+							</li>
+							<li>
+								<label class="menu-enable-disable">
+									<input class="menu-enable-disable-switch" type="checkbox" checked>
+								  	<span class="menu-enable-disable-slider"></span>
+								  	<div class="header-tooltip">
+										<span class="tool-text">Enable / Disable</span>
+									</div>
+								</label>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>

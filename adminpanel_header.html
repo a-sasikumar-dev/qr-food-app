@@ -13,6 +13,9 @@
   	<link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body class="adminpanel_body">
+	<div class="admin-logo">
+		<img src="assets/images/admin-logo.png" alt="Logo">
+	</div>
 	<div class="header-admin">
     	<div class="navbar-expand-lg">
   			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,35 +23,40 @@
   			</button>
   			<header class="adminpanel_header">
 	  			<div class="row align-items-center nav-height">
-					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
-						<div class="status-view">
-							<a href="#"><i class="fas fa-edit"></i> 
-								<div class="header-tooltip">
-									<span class="tool-text">Edit Menu</span>
-								</div>
-							</a>
-							<a href="#"><i class="fas fa-qrcode"></i>
-								<div class="header-tooltip">
-									<span class="tool-text">View QR Code</span>
-								</div>
-							</a>
-							<a href="#"><i class="fas fa-eye"></i>
-								<div class="header-tooltip">
-									<span class="tool-text">View Menu</span>
-								</div>
-							</a>
-							<a href="venue-add.php"><i class="fas fa-plus"></i>
-								<div class="header-tooltip">
-									<span class="tool-text">Add Venue</span>
-								</div>
-							</a>
+					<div class="col-xl-6 col-lg-6 col-md-3 col-sm-3 col-3 text-right">
+						<div class="status-view-relative">
+							<button class="navbar-toggler status-view-toggler" type="button" data-toggle="collapse" data-target="#status-view-collapse" aria-controls="status-view-collapse" aria-expanded="false" aria-label="Toggle navigation">
+	    						<span><i class="fas fa-ellipsis-v"></i></span>
+	  						</button>
+							<div class="status-view navbar-collapse" id="status-view-collapse">
+								<a href="#"><i class="fas fa-edit"></i> 
+									<div class="header-tooltip">
+										<span class="tool-text">Edit Menu</span>
+									</div>
+								</a>
+								<a href="#"><i class="fas fa-qrcode"></i>
+									<div class="header-tooltip">
+										<span class="tool-text">View QR Code</span>
+									</div>
+								</a>
+								<a href="#"><i class="fas fa-eye"></i>
+									<div class="header-tooltip">
+										<span class="tool-text">View Menu</span>
+									</div>
+								</a>
+								<a href="venue-add.php"><i class="fas fa-plus"></i>
+									<div class="header-tooltip">
+										<span class="tool-text">Add Venue</span>
+									</div>
+								</a>
+							</div>
 						</div>
 	  				</div>
-	  				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-right">
+	  				<div class="col-xl-6 col-lg-6 col-md-9 col-sm-9 col-9 text-right">
 	  					<ul class="admin-right-panel">
 		  					<li class="select-option-right language-select">
 		  						<div class="selected-lang">
-		  							<img src="assets/images/english.png"> English <i class="fa fa-angle-down angle-arrow"></i>
+		  							<img src="assets/images/english.png"> <span class="res-l-hide">English</span> <i class="fa fa-angle-down angle-arrow"></i>
 		  						</div>
 		  						<ul class="select-language">
 		  							<li><a href="#"><img src="assets/images/english.png"> English</a></li>
@@ -75,7 +83,7 @@
 	      						<div class="profile-image">
 									<img src="assets/images/admin-bg.png" alt="Profile Image">
 								</div>
-	      						<p class="profile-name">Mariana <i class="fa fa-angle-down angle-arrow"></i></p>
+	      						<p class="profile-name"><span class="res-l-hide">Mariana</span> <i class="fa fa-angle-down angle-arrow"></i></p>
 		      					<ul class="dropdown">
 									<li class="active"><a href="profile.php"><i class="fas fa-user"></i> Profile</a></li>
 									<li><a href="#"><i class="fas fa-question"></i> Help</a></li>
@@ -88,73 +96,68 @@
 	  		</header>
   		</div>
 	</div>
-  	<div class="admin-sidebar">
-  		<div class="admin-logo">
-			<img src="assets/images/admin-logo.png" alt="Logo">
-		</div>
-		<div class="navbar-collapse" id="navbarText">
-			<ul class="sidebar-menu">
-				<li>
-					<a class="nav-link" href="dashboard.php"><i class="fas fa-home"></i>
-					<div class="admin-tooltip">Dashboard</div></a>
-				</li>
-				<li>
-					<a class="nav-link" href="menu.php"><i class="fas fa-bars"></i>
-					<div class="admin-tooltip">Menu</div></a>
-				</li>
-				<li>
-					<a class="nav-link" href="#"><i class="fas fa-tablet-alt"></i>
-					<div class="admin-tooltip">Tablet</div></a>
-				</li>
-				<li class="admin-submenu-li">
-					<a class="nav-link" href="qr-generator.php"><i class="fas fa-qrcode"></i>
-					<div class="admin-tooltip">QR Menu</div></a>
-					<!-- <ul class='admin-submenus'>
-						<li><a class="nav-link" href="qr-generator.php"><i class="fas fa-tachometer-alt"></i>
-							<div class="admin-tooltip">QR Generator</div></a>
-						</li>
-						<li><a class="nav-link" href="#"><i class="fas fa-book"></i>
-							<div class="admin-tooltip">Feedbacks</div></a>
-						</li>
-						<li><a class="nav-link" href="#"><i class="fas fa-bullhorn"></i>
-							<div class="admin-tooltip">Campaigns</div></a>
-						</li>
-					</ul> -->
-				</li>
-				<li class="admin-submenu-li"><a class="nav-link"><i class="fas fa-globe"></i>
-					<div class="admin-tooltip">Online Menu</div></a>
-					<!-- <ul class='admin-submenus'>
-						<li><a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i>
-							<div class="admin-tooltip">Dashboard</div></a>
-						</li>
-						<li><a class="nav-link" href="#"><i class="fas fa-book"></i>
-							<div class="admin-tooltip">Feedbacks</div></a>
-						</li>
-						<li><a class="nav-link" href="#"><i class="fas fa-bullhorn"></i>
-							<div class="admin-tooltip">Campaigns</div></a>
-						</li>
-					</ul> -->
-				</li>
-				<li><a class="nav-link" href="orders-history.php"><i class="fas fa-cart-plus"></i>
-					<div class="admin-tooltip">Orders History</div></a>
-				</li>
-				<li><a class="nav-link" href="#"><i class="fas fa-book"></i>
-					<div class="admin-tooltip">Feedbacks</div></a>
-				</li>
-				<li><a class="nav-link" href="#"><i class="fas fa-bullhorn"></i>
-					<div class="admin-tooltip">Campaigns</div></a>
-				</li>
-				<li><a class="nav-link" href="#"><i class="fas fa-cogs"></i>
-					<div class="admin-tooltip">Settings</div></a>
-				</li>
-				<li><a class="nav-link" href="#"><i class="fas fa-mobile-alt"></i>
-					<div class="admin-tooltip">App Config</div></a>
-				</li>
-				<li><a class="nav-link" href="#"><i class="fas fa-home"></i></a></li>
-				<li><a class="nav-link" href="#"><i class="fas fa-home"></i></a></li>
-				<li><a class="nav-link" href="#"><i class="fas fa-home"></i></a></li>
-			</ul>
-		</div>
+  	<div class="admin-sidebar navbar-collapse" id="navbarText">
+		<ul class="sidebar-menu">
+			<li>
+				<a class="nav-link" href="dashboard.php"><i class="fas fa-home"></i> <span class="res-only">Dashboard</span>
+				<div class="admin-tooltip">Dashboard</div></a>
+			</li>
+			<li>
+				<a class="nav-link" href="menu.php"><i class="fas fa-bars"></i> <span class="res-only">Menu</span>
+				<div class="admin-tooltip">Menu</div></a>
+			</li>
+			<li>
+				<a class="nav-link" href="#"><i class="fas fa-tablet-alt"></i> <span class="res-only">Tablet</span>
+				<div class="admin-tooltip">Tablet</div></a>
+			</li>
+			<li class="admin-submenu-li">
+				<a class="nav-link" href="qr-generator.php"><i class="fas fa-qrcode"></i> <span class="res-only">QR Menu</span>
+				<div class="admin-tooltip">QR Menu</div></a>
+				<!-- <ul class='admin-submenus'>
+					<li><a class="nav-link" href="qr-generator.php"><i class="fas fa-tachometer-alt"></i>
+						<div class="admin-tooltip">QR Generator</div></a>
+					</li>
+					<li><a class="nav-link" href="#"><i class="fas fa-book"></i>
+						<div class="admin-tooltip">Feedbacks</div></a>
+					</li>
+					<li><a class="nav-link" href="#"><i class="fas fa-bullhorn"></i>
+						<div class="admin-tooltip">Campaigns</div></a>
+					</li>
+				</ul> -->
+			</li>
+			<li class="admin-submenu-li"><a class="nav-link"><i class="fas fa-globe"></i> <span class="res-only">Online Menu</span>
+				<div class="admin-tooltip">Online Menu</div></a>
+				<!-- <ul class='admin-submenus'>
+					<li><a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i>
+						<div class="admin-tooltip">Dashboard</div></a>
+					</li>
+					<li><a class="nav-link" href="#"><i class="fas fa-book"></i>
+						<div class="admin-tooltip">Feedbacks</div></a>
+					</li>
+					<li><a class="nav-link" href="#"><i class="fas fa-bullhorn"></i>
+						<div class="admin-tooltip">Campaigns</div></a>
+					</li>
+				</ul> -->
+			</li>
+			<li><a class="nav-link" href="orders-history.php"><i class="fas fa-cart-plus"></i> <span class="res-only">Orders History</span>
+				<div class="admin-tooltip">Orders History</div></a>
+			</li>
+			<li><a class="nav-link" href="#"><i class="fas fa-book"></i> <span class="res-only">Feedbacks</span>
+				<div class="admin-tooltip">Feedbacks</div></a>
+			</li>
+			<li><a class="nav-link" href="#"><i class="fas fa-bullhorn"></i> <span class="res-only">Campaigns</span>
+				<div class="admin-tooltip">Campaigns</div></a>
+			</li>
+			<li><a class="nav-link" href="#"><i class="fas fa-cogs"></i> <span class="res-only">Settings</span>
+				<div class="admin-tooltip">Settings</div></a>
+			</li>
+			<li><a class="nav-link" href="#"><i class="fas fa-mobile-alt"></i> <span class="res-only">App Config</span>
+				<div class="admin-tooltip">App Config</div></a>
+			</li>
+			<li><a class="nav-link" href="#"><i class="fas fa-home"></i></a></li>
+			<li><a class="nav-link" href="#"><i class="fas fa-home"></i></a></li>
+			<li><a class="nav-link" href="#"><i class="fas fa-home"></i></a></li>
+		</ul>
 	</div>
 	<section class="main-container-body">
 		<nav>
