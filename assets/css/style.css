@@ -3791,7 +3791,8 @@ button:focus
 .billing-accordion .admin-panel-form
 {
   box-shadow: none;
-  border: 1px solid #e8e8e8;
+  border: none;
+  padding: 15px 10px;
 }
 .billinginformation-box
 {
@@ -3861,8 +3862,12 @@ button:focus
 {
   height: 150px;
   flex: 0 0 50%;
-  align-items: flex-end;
   display: flex;
+  margin-top: 15px;
+}
+.pricing-image img
+{
+  object-fit: contain;
 }
 .pricing-price
 {
@@ -4284,12 +4289,10 @@ button:focus
   width: 100%;
   display: block;
   padding: 10px 0;
-  font-weight: 600;
-  letter-spacing: 0.5px;
   margin-bottom: 0px;
-  color: #1b006b;
-  text-shadow: #a489ff 0 1px 0;
-  font-size: 16px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .ribbon p:before, .ribbon p:after
 {
@@ -4920,6 +4923,18 @@ button:focus
   {
     border-right: none;
   }
+  .pricing-plan-row
+  {
+    justify-content: center;
+  }
+  .pricing-plan-col
+  {
+    flex: 0 0 32%;
+  }
+  .pricing-plan-col.plan-important
+  {
+    margin-top: 80px;
+  }
 }
 @media (max-width: 991px)
 {
@@ -5248,6 +5263,42 @@ button:focus
   {
     border-right: none;
   }
+  .profile-information-box .admin-panel-form
+  {
+    margin-top: 20px;
+  }
+  .billing-accordion .admin-panel-form
+  {
+    padding: 0px;
+  }
+  .pricing-plan-row
+  {
+    justify-content: center;
+  }
+  .pricing-plan-col
+  {
+    flex: 0 0 48%;
+  }
+  .pricing-plan-col.plan-important
+  {
+    margin-top: 80px;
+  }
+  .res-form-group
+  {
+    margin-bottom: 20px;
+  }
+  .export-reload-btns
+  {
+    text-align: center;
+  }
+  .orders-history-body .order-comp, .orders-history-body .order-waiting
+  {
+    padding-left: 40px;
+  }
+  .orders-history-header .admin-panel-form .align-items-end
+  {
+    align-items: flex-start !important;
+  }
 }
 @media (max-width: 767px)
 {
@@ -5448,6 +5499,37 @@ button:focus
   .profile-information-box .admin-panel-form
   {
     margin-top: 20px;
+  }
+  .billing-accordion .admin-panel-form
+  {
+    padding: 0px;
+  }
+  .pricing-plan-col
+  {
+    flex: 0 0 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .pricing-image
+  {
+    height: auto;
+    margin-top: 10px;
+  }
+  .pricing-plan-col.plan-important
+  {
+    margin-top: 80px;
+  }
+  .res-form-group
+  {
+    margin-bottom: 20px;
+  }
+  .export-reload-btns
+  {
+    text-align: center;
+  }
+  .orders-history-body .order-comp, .orders-history-body .order-waiting
+  {
+    padding-left: 40px;
   }
 }
 @media (max-width: 350px)
