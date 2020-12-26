@@ -1,7 +1,7 @@
 <?php include "adminpanel_header.html" ?>
     <div class="orders-details-container">
         <div class="row">
-            <div class="col-xl-4">
+            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12">
                 <div class="order-details-left-box">
                     <div class="order-details-header">
                         <a href="#" class="back-order" title="Back"><i class="fa fa-angle-left"></i></a>
@@ -41,19 +41,19 @@
                                 </div>
                             </div> -->
                             <div class="row">
-                                <div class="col-xl-6">
+                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-6 col-12">
                                     <div class="order-det-row">
                                         <h6 class="order-det-title">Order Number</h6>
                                         <p class="order-det-info">7426</p>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 pl-0">
+                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-6 col-12">
                                     <div class="order-det-row">
                                         <h6 class="order-det-title">Action date</h6>
                                         <p class="order-det-info">20/10/2020 11:06</p>
                                     </div>
                                 </div>
-                                <div class="col-xl-12">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="order-det-row">
                                         <h6 class="order-det-title">Tracking Number</h6>
                                         <p class="order-det-info">M!DJPU9SEKMM9OQQ4FI65Q</p>
@@ -150,7 +150,7 @@
                         </div>
                 </div>
             </div>
-            <div class="col-xl-8">
+            <div class="col-xl-8 col-lg-8 col-md-7 col-sm-12 col-12">
                 <div class="order-details-right-box">
                     <div class="order-details-header">
                         <div class="status-view">

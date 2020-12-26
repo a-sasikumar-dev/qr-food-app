@@ -47,13 +47,13 @@
                                     <form>
                                         <div class="admin-panel-form">
                                             <div class="row">
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">Name</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                     <div class="form-group">
                                                         <input type="email" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">Email</label>
@@ -61,13 +61,13 @@
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">Phone</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">Website</label>
@@ -79,13 +79,13 @@
                                                 <label class="adminpanel-formlabel">Street Address</label>
                                             </div>
                                             <div class="row">
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">City</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">State</label>
@@ -93,13 +93,13 @@
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                     <div class="form-group">
                                                         <select class="form-control selectpicker bfh-countries" data-country="US" data-flags="true" data-hide-disabled="true"></select>
                                                         <label class="adminpanel-formlabel">Country</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control" placeholder=" ">
                                                         <label class="adminpanel-formlabel">Pincode</label>

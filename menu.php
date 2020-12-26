@@ -4,7 +4,7 @@
 	</div>
 	<section class="admin-menu-box-container">
 		<div class="row">
-			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
 				<div class="admin-menu-box">
 					<div class="admin-menu-img-box default-menu-box">
 						<i class="fas fa-utensils"></i>
@@ -45,7 +45,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
 				<div class="admin-menu-box">
 					<div class="admin-menu-img-box">
 						<img src="assets/images/admin-bg.png" alt="Menu Image">
@@ -86,7 +86,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
 				<div class="admin-menu-box">
 					<div class="admin-menu-img-box">
 						<img src="assets/images/pizza.jpg" alt="Pizza Image">
@@ -127,14 +127,14 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
 				<div class="admin-menu-box">
 					<div class="add-menu-plus">
 						<i class="fa fa-plus" data-toggle="modal" data-target="#createmenuModal"></i>
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
 				<div class="admin-menu-box">
 					<div class="admin-menu-img-box">
 						<img src="assets/images/chicken.jpg" alt="Chicken Image">
@@ -175,7 +175,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
 				<div class="admin-menu-box">
 					<div class="admin-menu-img-box">
 						<img src="assets/images/pizza.jpg" alt="Pizza Image">
@@ -216,7 +216,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-12">
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
 				<div class="admin-menu-box">
 					<div class="admin-menu-img-box">
 						<img src="assets/images/rice.jpg" alt="Rice Image">

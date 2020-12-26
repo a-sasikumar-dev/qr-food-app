@@ -7,7 +7,7 @@
         <div class="admin-panel-form">
             <form>
                 <div class="row align-items-end">
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 res-form-group">  
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 res-form-group">  
                         <label>Status</label>
                         <select class="form-control selectpicker">
                             <option>All</option>
@@ -19,14 +19,14 @@
                             <option>Cancelled</option>
                         </select>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 res-form-group">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 res-form-group">
                         <div class="daterange-order">
                             <label>Choose Date</label>
                             <input class="form-control daterange" type="text" name="daterange">
                             <i class="far fa-calendar"></i>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 res-form-group">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 res-form-group">
                         <div class="input-group search-orders">
                             <input type="search" class="form-control" placeholder=" ">
                             <label class="adminpanel-formlabel">Search</label>
@@ -35,7 +35,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="col-xl-3 col-lg-12 col-md-6 col-sm-6 col-12">
                         <div class="export-reload-btns">
                             <button class="export-reload" type="button"><i class="fa fa-download"></i> Export</button>
                             <button class="export-reload" type="button"><i class="fas fa-sync-alt"></i> Reload</button>

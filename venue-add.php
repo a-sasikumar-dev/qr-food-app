@@ -54,7 +54,7 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                 <div class="form-group">
-                                    <select class="form-control selectpicker bfh-countries" data-country="US" data-flags="true" data-hide-disabled="true"></select>
+                                    <select class="form-control selectpicker bfh-countries" data-country="US" data-flags="true"></select>
                                     <label class="adminpanel-formlabel">Country</label>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@
                     <form>
                         <div class="form-group">
                             <div class="row app-config-row">
-                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 app-config-col">
+                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-6 col-12 app-config-col">
                                     <div class="config-title">
                                         <h5>Information</h5>
                                     </div>
@@ -205,7 +205,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 app-config-col">
+                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-6 col-12 app-config-col">
                                     <div class="config-title">
                                         <h5>Languages</h5>
                                     </div>
@@ -291,13 +291,13 @@
                             <h5>Menu Button</h5>
                         </div>
                         <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-6 col-12">
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder=" ">
                                     <label class="adminpanel-formlabel">Text of the Menu Button</label>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-6 col-12">
                                 <div class="form-group">
                                     <select class="form-control selectpicker bfh-languages" data-language="en"></select>
                                     <label class="adminpanel-formlabel">Languages</label>
@@ -305,13 +305,13 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-6 col-12">
                                 <div class="form-group">
                                     <select class="form-control selectpicker bfh-currencies" data-currency="INR" data-hide-disabled="true"></select>
                                     <label class="adminpanel-formlabel">Currency code</label>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-6 col-12">
                                 <div class="form-group">
                                     <select class="form-control selectpicker bfh-timezones" data-country="IN"></select>
                                     <label class="adminpanel-formlabel">Time Zone</label>
